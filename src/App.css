@@ -1,0 +1,251 @@
+:root {
+  --primary-color: #0e1128;
+  --secondary-color: #3a0a2e;
+  --rectangular-right: #506899;
+  --rectangular-left: #7f1464;
+  --light-text: #F0E1DC;
+  --heavy-text: #d9c089;
+  --heading-title-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.project-tile {
+  visibility: visible;
+}
+
+h1,
+h2 {
+  font-family: var(--heading-title-family);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, black, 70%, var(--primary-color));
+  padding-bottom: 1.2rem;
+}
+
+#navbar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: end;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: var(--light-text);
+}
+
+#navbar ul li a:hover {
+  color: var(--heavy-text);
+}
+
+#welcome-section,
+#contact {
+  height: 90vh;
+  background: linear-gradient(180deg, var(--primary-color) 75%, var(--secondary-color));
+  color: var(--light-text);
+  padding: 3rem;
+}
+
+#home {
+  margin-top: 20vh;
+}
+
+.lg-heading {
+  font-size: 5rem;
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+.underline-third {
+  border-top: 3px solid var(--rectangular-right);
+  border-right: 3px solid var(--rectangular-right);
+  padding-right: 1rem;
+  padding-left: 20px;
+  transition: all 0.65s ease;
+  display: inline-block;
+}
+
+.underline-third:hover {
+  color: var(--rectangular-right);
+  font-size: 7rem;
+  cursor: none;
+
+
+}
+
+.underline-secondary:hover {
+  color: var(--rectangular-left);
+  cursor: none;
+
+
+}
+
+.underline-secondary {
+  border-top: 3px solid var(--rectangular-left);
+  border-left: 3px solid var(--rectangular-left);
+  padding-left: 1rem;
+  transition: all 0.3s ease;
+  margin-left: 5vw;
+  display: inline-block
+}
+
+.subtitle {
+  display: block;
+  position: relative;
+  top: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Consolas, 'Courier New', monospace;
+  text-align: center;
+  left: 30px;
+  transition: all 0.5s ease;
+
+}
+
+.subtitle:hover {
+  color: rgb(158, 156, 156);
+  font-style: italic;
+  cursor: none;
+}
+
+.father {
+  margin-left: 10%;
+  text-align: center;
+
+}
+
+#projects {
+  padding-bottom: 2rem;
+  padding-top: 10vh;
+  background: linear-gradient(180deg, var(--secondary-color)75%, var(--primary-color));
+
+}
+
+.project-words {
+  padding: 1.5vh;
+  border-top: 4px solid var(--primary-color);
+  border-left: 4px solid var(--primary-color);
+  border-right: 4px solid var(--primary-color);
+}
+
+#projects>h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 3rem 0 0;
+  font-weight: 500;
+}
+
+img {
+  width: 90%;
+  border: 0px solid black;
+  display: flex;
+  padding-left: 9vh;
+  padding-top: 6vh;
+
+}
+
+.project {
+  background: var(--primary-color);
+  border-radius: 10%;
+  margin-left: 20%;
+}
+
+.project>a {
+  text-decoration: none;
+  color: var(--light-text);
+  border-radius: 10%;
+
+
+}
+
+.project>a:hover {
+  opacity: 0.7;
+
+}
+
+.project-title {
+  grid-template-columns: 1fr;
+  padding: 0;
+  font-weight: bold;
+  color: var(--heavy-text);
+  text-shadow: 5px 5px 5px black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 4rem;
+  margin-top: 10vh;
+
+
+}
+
+.project-father {
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  gap: 2vh;
+}
+
+.project {
+  width: 60vh;
+  height: 50vh;
+}
+
+#contact {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+#contact>p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 2rem;
+}
+
+.social>a {
+  font-size: 3rem;
+  padding: 1rem;
+  color: var(--rectangular-right);
+}
+
+.social>a:hover {
+  color: var(--heavy-text);
+}
+
+footer {
+  background: linear-gradient(180deg, var(--secondary-color)10%, var(--rectangular-right));
+  color: var(--light-text);
+  padding-top: 2rem;
+}
+
+footer>.copy {
+  text-align: center;
+  padding: 2rem;
+
+}
+
+.circleCursor {
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  left: -25px;
+  top: -25px;
+  width: 5vw;
+  height: 5vw;
+  z-index: 5;
+}
