@@ -1,28 +1,16 @@
-import React from 'react';
+import ProjectList from '../components/ProjectsList'
 
-export default function Proyects () {
+export default function Proyects() {
 
-    const gridContainerStyle = {
-        display: 'grid',
-        gridTemplateColumns: 'repeat(2, 1fr)',
-        gap: '16px'
-    };
 
-    const gridItemStyle = {
-        backgroundColor: '#f0f0f0',
-        padding: '20px',
-        textAlign: 'center',
-        border: '1px solid #ccc',
-        borderRadius: '8px'
-
-    };
     return (
-        <div style={gridContainerStyle}>
-            <div style={gridItemStyle}>
-                <h1>Tu madre</h1>
-                <h1>Tu madre</h1>
-                <h1>Tu madre</h1>
+        <section className="portfolio-box">
+            <h1 className="title">My Work</h1>
+            <div className="subtitle">
+                <h2>Check out some of my projects...</h2>
+                <div className="underline"></div>
             </div>
-        </div>
+            <ProjectList />
+        </section>
     );
 };
