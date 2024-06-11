@@ -19,40 +19,9 @@ body {
   overflow: hidden;
 }
 
-.project-tile {
-  visibility: visible;
-}
-
 h1,
 h2 {
   font-family: var(--heading-title-family);
-}
-
-header {
-  position: sticky;
-  top: 0;
-  left: 0;
-  background: linear-gradient(180deg, black, 70%, var(--primary-color));
-  padding-bottom: 1.2rem;
-}
-
-#navbar ul {
-  display: flex;
-  list-style-type: none;
-  gap: 2rem;
-  padding: 1rem;
-  justify-content: end;
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-
-#navbar ul li a {
-  text-decoration: none;
-  color: var(--light-text);
-}
-
-#navbar ul li a:hover {
-  color: var(--heavy-text);
 }
 
 #welcome-section,

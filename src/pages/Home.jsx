@@ -1,5 +1,5 @@
-import './App.css'
-import Typing from './typing.js';
+import '../App.css'
+import Typing from '../typing.js';
 import { useState } from 'react';
 
 

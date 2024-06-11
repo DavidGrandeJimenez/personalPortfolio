@@ -5,15 +5,34 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import { Link } from 'react-router-dom'
-import './Header.css'
 
 
 export default function ButtonAppBar() {
+  const buttonStyles = {
+    color: 'white',
+    padding: '1rem',
+    transition: '0.3s, color 0.10s',
+    '&:hover': {
+      transform: 'rotateX(360deg)',
+    }
+  }
 
+  const linkStyle = {
+    fontSize: '1.3rem',
+    textDecoration: 'none',
+    fontWeight:'bold',
+    color: 'rgba(255, 255, 255, 0.567)',
+    '&:hover': {
+      color: 'white',
+    },
+  }
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" sx={{
+        background: 'linear-gradient(180deg, black, 70%, #0e1128)',
+        paddingBottom: '1.2rem',
+      }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -23,12 +42,10 @@ export default function ButtonAppBar() {
             sx={{ mr: 2 }}
           >
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}><p>
-    {window.location.pathname}
-  </p>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
-          <Button className="pages">{<Link to="/">Home</Link>}</Button>
-          <Button className="pages">{<Link to="/proyects">Proyectos</Link>}</Button>
+          <Button sx={buttonStyles}>{<Link to="/" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>Home</Typography></Link>}</Button>
+          <Button sx={buttonStyles}>{<Link to="/proyects" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>Proyectos</Typography></Link>}</Button>
         </Toolbar>
       </AppBar>
     </Box>
