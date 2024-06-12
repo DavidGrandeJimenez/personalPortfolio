@@ -19,12 +19,7 @@ body {
   overflow: hidden;
 }
 
-h1,
-h2 {
-  font-family: var(--heading-title-family);
-}
-
-.welcome-section {
+.welcomeSection {
   height: 90vh;
   background: linear-gradient(180deg, var(--primary-color) 75%, var(--secondary-color));
   color: var(--light-text);
@@ -35,10 +30,11 @@ h2 {
   margin-top: 20vh;
 }
 
-.title {
+.titleHome {
   font-size: 5rem;
   text-align: center;
   padding-bottom: 10vh;
+  font-family: var(--heading-title-family);
 }
 
 .surname {
@@ -65,7 +61,7 @@ h2 {
   padding-left: 1rem;
   transition: all 0.3s ease;
   margin-left: 5vw;
-  display: inline-block
+  display: inline-block;
 }
 
 .name:hover {
@@ -73,7 +69,7 @@ h2 {
   cursor: none;
 }
 
-.subtitle {
+.subtitleHome {
   display: block;
   position: relative;
   top: 1rem;
@@ -88,7 +84,7 @@ h2 {
 
 }
 
-.subtitle:hover {
+.subtitleHome:hover {
   color: rgb(158, 156, 156);
   font-style: italic;
   cursor: none;

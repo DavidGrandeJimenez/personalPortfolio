@@ -19,12 +19,6 @@ body {
     overflow: hidden;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-title-family);
-    padding: 0.8rem
-}
-
 .portfolioBox {
     height: 90vh;
     background: linear-gradient(180deg, var(--primary-color) 75%, var(--secondary-color));
@@ -35,10 +29,14 @@ h2 {
 
 }
 
-.title {
+.titleProjects {
     font-size: 3rem;
     padding: 1rem;
+    font-family: var(--heading-title-family);
 
-}.subtitle{
-    margin-bottom: 8vh ;
+}
+
+.subtitleProjects {
+    margin-bottom: 8vh;
+    font-family: var(--heading-title-family);
 }

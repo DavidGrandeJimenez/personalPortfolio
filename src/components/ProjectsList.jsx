@@ -13,12 +13,12 @@ const ProjectList = () => {
                             <Grid item lg={4} key={cada.id}>
                                 <div className='project-card'>
                                     <div className="img-zoom">
-                                        <img style={{ height: '200px', width: '500px' }}
+                                        <img className="image" style={{ height: '200px', width: '500px' }}
                                             src={cada.cover}
                                             alt={cada.title}
                                         />
                                     </div>
-                                    <h3>{cada.title}</h3>
+                                    <h3 className="titleImage">{cada.title}</h3>
                                 </div>
                             </Grid>
                         )

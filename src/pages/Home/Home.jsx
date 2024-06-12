@@ -1,9 +1,8 @@
+import Typing from '../../typing.js';
+import { useState} from 'react';
+import gif from '../../assets/gif3.gif'
+import gif2 from '../../assets/gif5.gif'
 import './Home.css'
-import Typing from '../typing.js';
-import { useState } from 'react';
-import gif from '../assets/gif3.gif'
-import gif2 from '../assets/gif5.gif'
-
 
 export default function Home() {
   const [isInside, setInside] = useState(false);
@@ -42,17 +41,17 @@ export default function Home() {
 
   return (
     <>
-      <section className="welcome-section" style={{ cursor: 'none' }} onMouseMove={handleMouseMove}>
-        <aside><img src={gif} alt="white" className="whitePlant" /></aside>
+      <section className='welcomeSection' style={{ cursor: 'none' }} onMouseMove={handleMouseMove}>
+        <aside><img src={gif} alt="white" className='whitePlant' /></aside>
         <div className="home">
-          <div className="circleCursor" style={cursorStyle}></div>
-          <h1 className="title" >
+          <div className='circleCursor' style={cursorStyle}></div>
+          <h1 className="titleHome" >
             <span className={`name animate__animated ${temporaryTitleClass.name} ${temporaryClassName()}`} onMouseOver={handleMouseOverName} onMouseOut={handleMouseOutName}>DAVID</span>
             <span className={`surname animate__animated ${temporaryTitleClass.surname} ${temporaryClassName()}`} onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}>GRANDE</span>
           </h1>
-          <p className="subtitle animate__animated animate__backInUp" onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}><Typing></Typing></p>
+          <p className="subtitleHome animate__animated animate__backInUp" onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}><Typing></Typing></p>
         </div>
-        <aside><img src={gif2} alt="rosa" className="rosePlant" /></aside>
+        <aside><img src={gif2} alt="rosa" className='rosePlant' /></aside>
       </section>
     </>)
 }

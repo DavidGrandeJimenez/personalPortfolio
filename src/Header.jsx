@@ -45,7 +45,8 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
           <Button sx={buttonStyles}>{<Link to="/" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>Home</Typography></Link>}</Button>
-          <Button sx={buttonStyles}>{<Link to="/proyects" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>Proyectos</Typography></Link>}</Button>
+          <Button sx={buttonStyles}>{<Link to="/proyects" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>Proyects</Typography></Link>}</Button>
+          <Button sx={buttonStyles}>{<Link to="/about" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>About</Typography></Link>}</Button>
         </Toolbar>
       </AppBar>
     </Box>

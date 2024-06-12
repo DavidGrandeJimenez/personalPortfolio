@@ -27,4 +27,7 @@ export default defineConfig({
       },
     },
   },
+  css: {
+    modules: true // Aquí añades las opciones de CSS
+  }
 })

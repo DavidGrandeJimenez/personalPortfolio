@@ -24,7 +24,7 @@
     margin-bottom: 1rem;
 }
 
-img {
+.image {
     width: 100%;
     object-fit: cover;
     height: 35vh;
@@ -32,8 +32,8 @@ img {
     margin: 0 auto;
     transition: transform 0.5s ease-in-out;
 
-}img:hover{
+}.image:hover{
     transform: scale(1.5);
-}h3{
+}.titleImage{
     color:#F0E1DC;
 }

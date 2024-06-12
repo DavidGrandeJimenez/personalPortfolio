@@ -4,8 +4,10 @@ import Header from './Header.jsx'
 
 function App() {
 
-  const MyHome = React.lazy(() => import('./pages/Home.jsx'));
-  const MyProyects = React.lazy(() => import('./pages/Proyects.jsx'));
+  const MyHome = React.lazy(() => import('./pages/Home/Home.jsx'));
+  const MyProyects = React.lazy(() => import('./pages/Projects/Proyects.jsx'));
+  const MyAbout = React.lazy(() => import('./pages/About.jsx'));
+
   return (
     <>
       <Router>
@@ -13,7 +15,9 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/" element={<MyHome></MyHome>} />
+            
             <Route path="/proyects" element={<MyProyects></MyProyects>} />
+            <Route path="/about" element={<MyAbout  ></MyAbout>} />
           </Routes>
         </Suspense>
       </Router>
