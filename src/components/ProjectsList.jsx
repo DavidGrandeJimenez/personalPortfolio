@@ -1,27 +1,31 @@
 import data from './ProyectsData.js'
 import './ProjectsList.css'
+import Grid from '@mui/material/Grid';
+
 const ProjectList = () => {
 
     return (
         <>
             <article className="list-projects">
-                {data.map((cada) => {
-                    return (
-                        <div key={cada.id}>
-                            <div style={{backgroundColor:'lightgreen'}} className='project-card'>
-                                <div style={{backgroundColor:'lightblue'}} className="img-zoom">
-                                    <img style={{height: '200px', width:'500px'}}
-                                        src={cada.cover}
-                                        alt={cada.title}
-                                    />
+                <Grid container spacing={5} justify="center" alignItems="center">
+                    {data.map((cada) => {
+                        return (
+                            <Grid item lg={4} key={cada.id}>
+                                <div className='project-card'>
+                                    <div className="img-zoom">
+                                        <img style={{ height: '200px', width: '500px' }}
+                                            src={cada.cover}
+                                            alt={cada.title}
+                                        />
+                                    </div>
+                                    <h3>{cada.title}</h3>
                                 </div>
-
-                                <h3>{cada.title}</h3>
-                            </div>
-                        </div>
-                    )
-                })}
+                            </Grid>
+                        )
+                    })}
+                   </Grid >
             </article>
+
         </>
     )
 

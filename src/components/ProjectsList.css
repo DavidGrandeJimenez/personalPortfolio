@@ -1,35 +1,39 @@
 .list-projects {
     margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 2rem;
+    width:99%;
+    
+
 }
 
 .project-card {
     padding: 2rem;
-    max-width: 100%;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 2rem;
+    height: 22vw;
+    background-color: #163575;
+    border: 0.2rem solid white; 
+    
+
 }
 
 .img-zoom {
-    height: 250px;
+    height: 35vh;
     overflow: hidden;
     border-radius: 20px;
+    border: 0.1rem solid white;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 img {
     width: 100%;
     object-fit: cover;
-    height: 250px;
+    height: 35vh;
     display: block;
     margin: 0 auto;
     transition: transform 0.5s ease-in-out;
 
 }img:hover{
     transform: scale(1.5);
+}h3{
+    color:#F0E1DC;
 }
