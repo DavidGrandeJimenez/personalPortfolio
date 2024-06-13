@@ -43,16 +43,15 @@ body {
   padding-right: 1rem;
   padding-left: 20px;
   transition: all 0.65s ease;
-  display: inline-block;
   margin-left: 0.8vw;
+  display:inline-block;
 }
 
 .surname:hover {
   color: var(--rectangular-right);
   font-size: 7rem;
   cursor: none;
-
-
+  display: inline;
 }
 
 .name {
@@ -61,12 +60,13 @@ body {
   padding-left: 1rem;
   transition: all 0.3s ease;
   margin-left: 5vw;
-  display: inline-block;
+  display: inline-block
 }
 
 .name:hover {
   color: var(--rectangular-left);
   cursor: none;
+  display:inline;
 }
 
 .subtitleHome {
@@ -79,7 +79,6 @@ body {
   text-align: center;
   left: 30px;
   transition: all 0.5s ease;
-  mix-blend-mode: difference;
   z-index: 5;
 
 }

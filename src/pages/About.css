@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #0e1128;
+    --secondary-color: #3a0a2e;
+    --rectangular-right: #506899;
+    --rectangular-left: #7f1464;
+    --light-text: #F0E1DC;
+    --heavy-text: #d9c089;
+    --heading-title-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: visible;
+}
+.backgroundAbout {
+    height: auto;
+    background: linear-gradient(165deg, var(--primary-color) 20%, var(--secondary-color) 70%, rgb(186, 18, 51));
+    padding: 3rem;
+    padding-top: 0.5vh;
+}

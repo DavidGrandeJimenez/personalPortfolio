@@ -32,7 +32,7 @@ export default function Home() {
     visibility: position.y > 90 ? 'visible' : 'hidden',
     width: isInside ? '5vw' : '3vw',
     height: isInside ? '5vw' : '3vw',
-    position: isInside ? 'absolute' : 'absolute',
+    position: 'absolute',
     transform: `translate(${position.x}px, ${position.y}px)`,
     backgroundColor: inName ? '#7f1464' : '#506899',
     transition: 'width 0.5s ease, height 0.5s ease, background-color 0.1s ease'

@@ -1,3 +1,4 @@
+import './AboutCard.css'
 const AboutCard = () => {
     return (
         <section className="aboutBox">
@@ -9,7 +10,7 @@ const AboutCard = () => {
                 <p className='ParagAboutCard'>
                     Disciplined person, with good performance and very collaborative in team-working. Skills and understanding of HTML, CSS, JavaScript, React and other technologies. With ability to learn new skills quickly.
                 </p>
-                <p className='ParagAboutCard'>Just a calm boy who loves discovering the world and lerning new things.</p>
+                <p className='ParagAboutCard'>Just a calm boy with great curiosity of learning new things.</p>
                 <p className='ParagAboutCard'>
                     Interested in working on projects with positive people.
                 </p>

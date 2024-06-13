@@ -1,7 +1,7 @@
 // Social Icons
 import linkedin from "../assets/linkedin-color.png";
 import github from "../assets/github-dark.png";
-import profileImg from "../assets/profile-img.png";
+//import profileImg from "../assets/profile-img.png";
 
 // Contact Icons
 import mobile from "../assets/mobile.png";
@@ -17,10 +17,10 @@ const ProfileCard = () => {
         <section id="profile-card" className="profileCardContainer">
             <article className="profile-card">
                 <div className="profile-img">
-                    <img src={profileImg} alt="David Grande" />
+                    <img src='https://avatars.githubusercontent.com/u/168454401?s=400&u=180c25b200fef4edfda6fd3c521be3d6615c656e&v=4' alt="David Grande" />
                 </div>
-                <h1 className="dispaly-name">David Grande</h1>
-                <h2 className="career-title">web developer</h2>
+                <h1 className="display-name">David Grande Jiménez</h1>
+                <h2 className="career-title">Web Developer</h2>
                 <div className="social">
                     <a href="https://www.linkedin.com/in/aleksandra-chirtoska/">
                         <img src={linkedin} alt="LinkedIn icon" className="imageProfileCard"/>
@@ -46,7 +46,7 @@ const ProfileCard = () => {
                     </p>
                     <p className="contact-item">
                         <img src={location} alt="location icon" />
-                        <span>Madrid, Spain</span>
+                        <span style={{color:'white'}}>Madrid, Spain</span>
                     </p>
                 </div>
                 <div className="download-resume">
