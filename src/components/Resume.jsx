@@ -4,6 +4,9 @@ import dotSeparator from "../assets/dot.png";
 import cello from '../assets/cello.png';
 import cat from '../assets/cat.png';
 import metal from '../assets/metal.png';
+import uk from '../assets/uk.png'
+import spain from '../assets/spain.png'
+import germany from '../assets/germany.png'
 
 import './Resume.css'
 
@@ -17,8 +20,7 @@ const Resume = () => {
                     <article className="resume-item">
                         <div className="resume-subtitle">
                             <img src={educationIcon} alt="education icon" />
-                            <h3 style={{color: 'white', fontSize: '1.5rem',
-  textTransform: 'uppercase', marginBottom: '1rem', fontFamily:'sans-serif'}}>Education</h3>
+                            <h3 className='titleApartado'>Education</h3>
                         </div>
                         <div className="content">
                             <div className="left-side">
@@ -40,8 +42,7 @@ const Resume = () => {
                     <article className="resume-item">
                         <div className="resume-subtitle">
                             <img src={certificatesIcon} alt="certification icon" />
-                            <h3 style={{color: 'white', fontSize: '1.5rem',
-  textTransform: 'uppercase', marginBottom: '1rem', fontFamily:'sans-serif'}}>Certifications</h3>
+                            <h3 className='titleApartado'>Certifications</h3>
                         </div>
                         <div className="content">
                             <div className="left-side">
@@ -51,7 +52,7 @@ const Resume = () => {
                                 </div>
                                 <div className="edu-info">
                                     <p>Dec 2023</p>
-                                    <span>Escuela de Organización Industrial y Google</span>
+                                    <span>EOI y Google</span>
                                 </div>
                                 <div className="edu-info">
                                     <p>Oct 2023 - Jan 2024</p>
@@ -63,7 +64,7 @@ const Resume = () => {
                                 </div>
                             </div>
                             <div className="middle">
-                                <span className="dot-separator">
+                                <span className="dot-separator" >
                                     <img src={dotSeparator} alt="separator" />
                                 </span>
                                 <span className="dot-separator">
@@ -90,7 +91,7 @@ const Resume = () => {
                                         href="https://skillshop.exceedlms.com/student/collection/786255-cloud-computing"
                                         target="_blank"
                                     >
-                                        Basic Certification in  Cloud Computing
+                                        Basic Certification Cloud Computing
                                     </a>
                                 </p>
                                 <p>
@@ -98,7 +99,7 @@ const Resume = () => {
                                         href="https://www.freecodecamp.org/certification/davidgrandewebs/responsive-web-design"
                                         target="_blank"
                                     >
-                                        Responsive Web Design with HTML and CSS
+                                        Responsive Web Design with HTML/CSS
                                     </a>
                                 </p>
                                 <p>
@@ -115,8 +116,7 @@ const Resume = () => {
                 </div>
                 <div className="sec-skills">
                     <article className="skill-item">
-                        <h3 style={{color: 'white', fontSize: '1.5rem',
-  textTransform: 'uppercase', marginBottom: '1rem', fontFamily:'sans-serif'}}>Web Coding Skills</h3>
+                        <h3 className='titleApartado'>Web Coding Skills</h3>
                         <div className="skill-slider">
                             <div className="slider">
                                 <p>HTML/CSS</p>
@@ -157,8 +157,7 @@ const Resume = () => {
                         </div>
                     </article>
                     <article className="skill-item">
-                        <h3 style={{color: 'white', fontSize: '1.5rem',
-  textTransform: 'uppercase', marginBottom: '1rem', fontFamily:'sans-serif'}}>Other Coding Skills</h3>
+                        <h3 className='titleApartado' style={{ marginTop: '10vh' }}>Other Coding Skills</h3>
                         <div className="skill-slider">
                             <div className="slider">
                                 <p>Git</p>
@@ -201,8 +200,7 @@ const Resume = () => {
                 </div>
                 <div className="socialSkills">
                     <article className="socialItem">
-                        <h3 style={{color: 'white', fontSize: '1.5rem',
-  textTransform: 'uppercase', marginBottom: '1rem', fontFamily:'sans-serif'}}>Social Skills</h3>
+                        <h3 className='titleApartado'>Social Skills</h3>
                         <div className="socialTag">
                             <span>Responsability</span>
                             <span>Learn Quickly</span>
@@ -217,8 +215,7 @@ const Resume = () => {
                     </article>
 
                     <article className="socialItem">
-                        <h3 style={{color: 'white', fontSize: '1.5rem',
-  textTransform: 'uppercase', marginBottom: '1rem', fontFamily:'sans-serif'}}>Hobbies</h3>
+                        <h3 className='titleApartado hobbiesTitle'>Hobbies</h3>
                         <div className="hobbies-grid">
                             <img src={cat} alt="cat icon" />
                             <img src={metal} alt="metal icon" />
@@ -226,12 +223,11 @@ const Resume = () => {
                         </div>
                     </article>
                     <article className="socialItem">
-                        <h3 style={{color: 'white', fontSize: '1.5rem',
-  textTransform: 'uppercase', marginBottom: '1rem', fontFamily:'sans-serif'}}>Languages</h3>
-                        <ul style={{listStyleType: 'none'}}>
-                            <li>Spanish - Native</li>
-                            <li>English - B2</li>
-                            <li>German - B1</li>
+                        <h3 className='titleApartado languageTitle'>Languages</h3>
+                        <ul style={{ listStyleType: 'none' }}>
+                            <li><img src={spain} alt='spain flag' className="bandera"></img><strong>Spanish</strong>  - Native</li>
+                            <li><img src={uk} alt='spain flag' className="bandera"></img><strong>English</strong> - B2</li>
+                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>German</strong> - B1</li>
                         </ul>
                     </article>
                 </div>

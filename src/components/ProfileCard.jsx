@@ -46,7 +46,7 @@ const ProfileCard = () => {
                     </p>
                     <p className="contact-item">
                         <img src={location} alt="location icon" />
-                        <span style={{color:'white'}}>Madrid, Spain</span>
+                        <span style={{color: '#343a40'}}>Madrid, Spain</span>
                     </p>
                 </div>
                 <div className="download-resume">

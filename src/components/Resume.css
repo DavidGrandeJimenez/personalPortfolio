@@ -8,6 +8,15 @@
     font-family: sans-serif;
 }
 
+.titleApartado {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
 .resume .titleResume {
     font-size: 2rem;
     text-transform: uppercase;
@@ -15,13 +24,16 @@
     font-family: sans-serif;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    color:white;
+    color: white;
+    margin-right: 8vw;
 }
 
 .resume .grid-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    background-color: rgba(255, 243, 252, 0.55);
+    border-radius: 1rem;
 }
 
 .resume .grid-2 .sec-experience {
@@ -53,26 +65,27 @@
     gap: 1rem;
     font-weight: 600;
     margin-top: 1rem;
+    height: 18vh;
 }
 
 .resume .grid-2 .sec-experience .resume-item .content .left-side {
     display: grid;
     justify-content: space-between;
     grid-template-rows: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
     text-align: right;
 }
 
 .resume .grid-2 .sec-experience .resume-item .content .left-side span {
     font-size: 0.8rem;
-    color: gray;
+    color: rgb(106, 1, 1);
 }
 
 .resume .grid-2 .sec-experience .resume-item .content .middle {
     display: grid;
     justify-content: space-between;
     grid-template-rows: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 2.8rem;
 }
 
 .resume .grid-2 .sec-experience .resume-item .content .middle .dot-separator {
@@ -87,7 +100,10 @@
     display: grid;
     justify-content: space-between;
     grid-template-rows: repeat(3, 1fr);
-    gap: 2rem;
+}
+
+.resume .grid-2 .sec-experience .resume-item .content .right-side p {
+    margin-bottom: 1.5rem;
 }
 
 .resume .grid-2 .sec-experience .resume-item .content .right-side p a {
@@ -95,7 +111,9 @@
     font-weight: 600;
     color: black;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
     transition: 0.3s ease-in-out;
+
 }
 
 .resume .grid-2 .sec-experience .resume-item .content .right-side p a:hover {
@@ -103,7 +121,7 @@
 }
 
 .resume .grid-2 .sec-experience .resume-item .content .right-side p a:active {
-    color: rgb(106, 1, 1);;
+    color: rgb(106, 1, 1);
 }
 
 .resume .grid-2 .sec-skills .skill-item {
@@ -113,7 +131,6 @@
 }
 
 .resume .grid-2 .sec-skills .skill-item h3 {
-    /* estilo de h3 aquí */
     text-align: center;
 }
 
@@ -125,8 +142,8 @@
 }
 
 .resume .grid-2 .sec-skills .skill-item .skill-slider .slider p {
-    padding-bottom: 1rem;
-    color:white;
+    padding-bottom: 0.5rem;
+    color: black;
 }
 
 .resume .grid-2 .sec-skills .skill-item .skill-slider .slider .slide {
@@ -136,12 +153,12 @@
     height: 1.4rem;
     background-color: rgb(106, 1, 1);
     border-radius: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 3px solid white;
 }
 
 .resume .grid-2 .sec-skills .skill-item .skill-slider .slider .slide::-webkit-slider-thumb {
     appearance: none;
-    background: rgb(106, 1, 1);;
+    background: rgb(106, 1, 1);
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -188,10 +205,28 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    margin: 0 auto;
 }
 
 .resume .grid-2 .socialSkills .socialItem .hobbies-grid img {
     width: 150px;
     display: block;
+
+}
+
+.hobbiesTitle {
+    margin-bottom: 0 !important;
+    margin-top:-5vh;
+}
+
+.languageTitle {
+    margin-top: 0vh;
+}
+
+.bandera {
+   height: 30px;
+   width: 30px;
+   margin-right: 0.5vw;
+   top:1.2vh;
+   position:relative;
+   
 }
