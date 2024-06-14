@@ -7,7 +7,8 @@
 .profile-card {
     position: relative;
     border: 2px solid rgba(255, 255, 255, 0.8);
-    background: radial-gradient(circle, rgba(201, 0, 0, 0.307), rgba(255, 255, 255, 0.9));
+    /*background: radial-gradient(circle, rgba(201, 0, 0, 0.307), rgba(255, 255, 255, 0.9));*/
+    background: radial-gradient(circle, rgba(133, 0, 64, 0.307), rgba(255, 255, 255, 0.9));
     padding: 2rem;
     border-radius: 1rem;
     margin: auto;
