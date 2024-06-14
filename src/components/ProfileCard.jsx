@@ -9,6 +9,7 @@ import mail from "../assets/mail-color.png";
 import webPage from "../assets/web-color.png";
 import location from "../assets/location-color.png";
 import download from "../assets/download.png";
+import perfil from '../assets/perfil.jpg';
 
 import './ProfileCard.css'
 
@@ -17,7 +18,7 @@ const ProfileCard = () => {
         <section id="profile-card" className="profileCardContainer">
             <article className="profile-card">
                 <div className="profile-img">
-                    <img src='https://avatars.githubusercontent.com/u/168454401?s=400&u=180c25b200fef4edfda6fd3c521be3d6615c656e&v=4' alt="David Grande" />
+                    <img src={perfil} alt="David Grande" />
                 </div>
                 <h1 className="display-name">David Grande Jiménez</h1>
                 <h2 className="career-title">Web Developer</h2>

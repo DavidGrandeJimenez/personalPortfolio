@@ -2,7 +2,7 @@
     border: 2px solid rgba(255, 255, 255, 0.8);
     background: radial-gradient(circle, rgba(133, 0, 64, 0.307), rgba(255, 255, 255, 0.9));
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     margin: 0 5rem;
     display: flex;
     flex-direction: column;
