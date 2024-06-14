@@ -32,7 +32,7 @@ const ProfileCard = () => {
                 <div className="contact-info">
                     <p className="contact-item">
                         <img src={mobile} alt="mobile icon" />
-                        <a href="tel:+34608966808">+34608966808</a>
+                        <a href="tel:+34608966808">+34 608966808</a>
                     </p>
                     <p className="contact-item">
                         <img src={mail} alt="mail icon" />

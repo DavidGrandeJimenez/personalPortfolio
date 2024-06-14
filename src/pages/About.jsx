@@ -10,10 +10,10 @@ export default function About() {
         <>
             <main className='backgroundAbout'>
                 <Grid container spacing={5} justify="center" alignItems="center">
-                    <Grid item lg={5}>
+                    <Grid item lg={6}>
                         <ProfileCard />
                     </Grid>
-                    <Grid item lg={7}>
+                    <Grid item lg={6}>
                         <AboutCard />
                     </Grid>
                 </Grid >

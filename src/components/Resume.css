@@ -1,5 +1,6 @@
 .resume {
     margin: 5rem;
+    margin-top: 0;
     background: radial-gradient(circle, rgba(201, 0, 0, 0.307), rgba(255, 255, 255, 0.9));
     border-radius: 1rem;
     padding: 2rem;
@@ -25,7 +26,6 @@
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     color: white;
-    margin-right: 8vw;
 }
 
 .resume .grid-2 {

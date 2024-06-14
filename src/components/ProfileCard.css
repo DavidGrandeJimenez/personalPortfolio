@@ -107,7 +107,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin: 2rem auto 0;
+    margin: 2rem auto 2rem;
     background-color: #62104d;
     border: 3px solid white;
     color: white;
