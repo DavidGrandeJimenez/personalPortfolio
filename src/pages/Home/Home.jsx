@@ -1,5 +1,5 @@
 import Typing from '../../typing.js';
-import { useState} from 'react';
+import { useState } from 'react';
 import gif from '../../assets/gif3.gif'
 import gif2 from '../../assets/gif5.gif'
 import './Home.css'
@@ -49,7 +49,7 @@ export default function Home() {
             <span className={`name animate__animated ${temporaryTitleClass.name} ${temporaryClassName()}`} onMouseOver={handleMouseOverName} onMouseOut={handleMouseOutName}>DAVID</span>
             <span className={`surname animate__animated ${temporaryTitleClass.surname} ${temporaryClassName()}`} onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}>GRANDE</span>
           </h1>
-          <p className="subtitleHome animate__animated animate__backInUp" onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}><Typing></Typing></p>
+          <p className="subtitleHome animate__animated animate__backInUp" onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}><Typing /></p>
         </div>
         <aside><img src={gif2} alt="rosa" className='rosePlant' /></aside>
       </section>

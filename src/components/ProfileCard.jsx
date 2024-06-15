@@ -23,10 +23,10 @@ const ProfileCard = () => {
                 <h1 className="display-name">David Grande Jiménez</h1>
                 <h2 className="career-title">Web Developer</h2>
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/aleksandra-chirtoska/">
-                        <img src={linkedin} alt="LinkedIn icon" className="imageProfileCard"/>
+                    <a href="https://www.linkedin.com/in/aleksandra-chirtoska/" target="_blank">
+                        <img src={linkedin} alt="LinkedIn icon" className="imageProfileCard" />
                     </a>
-                    <a href="https://github.com/DavidGrandeJimenez">
+                    <a href="https://github.com/DavidGrandeJimenez" target="_blank">
                         <img src={github} alt="Github icon" />
                     </a>
                 </div>

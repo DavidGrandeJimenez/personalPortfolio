@@ -46,7 +46,7 @@ export default function ButtonAppBar() {
           </Typography>
           <Button sx={buttonStyles}>{<Link to="/" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>Home</Typography></Link>}</Button>
           <Button sx={buttonStyles}>{<Link to="/proyects" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>Proyects</Typography></Link>}</Button>
-          <Button sx={buttonStyles}>{<Link to="/about" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>About</Typography></Link>}</Button>
+          <Button sx={buttonStyles}>{<Link to="/about" style={{textDecoration: 'none'}}><Typography sx={linkStyle}>About&Contact</Typography></Link>}</Button>
         </Toolbar>
       </AppBar>
     </Box>

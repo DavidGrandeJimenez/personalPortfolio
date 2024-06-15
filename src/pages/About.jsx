@@ -2,6 +2,7 @@ import ProfileCard from "../components/ProfileCard.jsx";
 import AboutCard from "../components/AboutCard.jsx";
 import Resume from '../components/Resume.jsx';
 import Grid from '@mui/material/Grid';
+import Footer from '../components/Footer.jsx';
 import './About.css'
 
 
@@ -18,6 +19,7 @@ export default function About() {
                     </Grid>
                 </Grid >
                 <Resume />
+                <Footer />
             </main>
         </>
     );

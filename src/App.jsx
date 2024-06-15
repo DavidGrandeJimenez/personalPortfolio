@@ -1,6 +1,7 @@
-import React, { lazy, Suspense } from 'react'
+import React, {Suspense } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './Header.jsx'
+import Loading from './components/Loading.jsx'
 
 function App() {
 
@@ -12,12 +13,11 @@ function App() {
     <>
       <Router>
         <Header></Header>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<Loading />}>
           <Routes>
-            <Route path="/" element={<MyHome></MyHome>} />
-            
-            <Route path="/proyects" element={<MyProyects></MyProyects>} />
-            <Route path="/about" element={<MyAbout  ></MyAbout>} />
+            <Route path="/" element={<MyHome />} />
+            <Route path="/proyects" element={<MyProyects />} />
+            <Route path="/about" element={<MyAbout />} />
           </Routes>
         </Suspense>
       </Router>
