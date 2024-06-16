@@ -16,7 +16,6 @@
 
 body {
   font-family: sans-serif;
-  overflow: hidden !important;
 }
 
 .welcomeSection {
@@ -24,6 +23,7 @@ body {
   background: linear-gradient(180deg, var(--primary-color) 75%, var(--secondary-color));
   color: var(--light-text);
   padding: 3rem;
+
 }
 
 .home {

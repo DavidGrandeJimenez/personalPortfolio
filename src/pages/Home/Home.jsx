@@ -1,5 +1,5 @@
 import Typing from '../../typing.js';
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 import gif from '../../assets/gif3.gif'
 import gif2 from '../../assets/gif5.gif'
 import './Home.css'
@@ -10,6 +10,12 @@ export default function Home() {
   const [inName, setInName] = useState(false);
   const [temporaryTitleClass, setTemporaryTitleClass] = useState({ name: "animate__backInLeft", surname: "animate__backInRight" })
 
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
 
   const handleMouseOverSurname = () => { setInside(true); }
   const handleMouseOutSurname = () => { setInside(false); }
@@ -41,7 +47,7 @@ export default function Home() {
 
   return (
     <>
-      <section className='welcomeSection' style={{ cursor: 'none' }} onMouseMove={handleMouseMove}>
+      <section className='welcomeSection' style={{ cursor: 'none'}} onMouseMove={handleMouseMove}>
         <aside><img src={gif} alt="white" className='whitePlant' /></aside>
         <div className="home">
           <div className='circleCursor' style={cursorStyle}></div>
