@@ -1,5 +1,5 @@
-import imagen0 from '../assets/0.maps.png'
-import imagen1 from '../assets/1.cards.png'
+import imagen0 from '../../assets/0.maps.png'
+import imagen1 from '../../assets/1.cards.png'
 
 const data = [
   {

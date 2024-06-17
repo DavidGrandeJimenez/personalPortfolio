@@ -4,12 +4,15 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+import useStore from './components/useStore.js';
+
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 export default function ButtonAppBar() {
 
-  const [language, setLanguage] = useState('EN');
+  const language = useStore((state) => state.language);
+  const setLanguage = useStore((state) => state.setLanguage);
 
   const buttonStyles = {
     color: 'white',
@@ -29,14 +32,14 @@ export default function ButtonAppBar() {
       color: 'white',
     }
   }
-  const contentMenu = [{ en: 'Home', es: 'Bienvenida', de: 'Willkommen' }, { en: 'Projects', es: 'Proyectos', de: 'Projekten' }, { en: 'About&Contact', es: 'Sobre mí y Contacto', de: 'Über mich & Kontact' }]
+  const contentMenu = [{ en: 'Home', es: 'Bienvenida', de: 'Willkommen' }, { en: 'Projects', es: 'Proyectos', de: 'Projekte' }, { en: 'About&Contact', es: 'Sobre mí y Contacto', de: 'Über mich & Kontact' }]
 
   const setContentMenu = (num) => {
     switch (language) {
       case 'EN': return contentMenu[num].en;
       case 'ES': return contentMenu[num].es;
       case 'DE': return contentMenu[num].de;
-      default: return 'Error choosing language';
+      default: return contentMenu[num].en;
     }
   }
 

@@ -1,31 +1,31 @@
-import educationIcon from "../assets/education.png";
-import certificatesIcon from "../assets/certificates.png";
-import dotSeparator from "../assets/dot.png";
-import cello from '../assets/cello.png';
-import cat from '../assets/cat.png';
-import metal from '../assets/metal.png';
-import uk from '../assets/uk.png'
-import spain from '../assets/spain.png'
-import germany from '../assets/germany.png'
+import educationIcon from "../../assets/education.png";
+import certificatesIcon from "../../assets/certificates.png";
+import dotSeparator from "../../assets/dot.png";
+import cello from '../../assets/cello.png';
+import cat from '../../assets/cat.png';
+import metal from '../../assets/metal.png';
+import uk from '../../assets/uk.png'
+import spain from '../../assets/spain.png'
+import germany from '../../assets/germany.png'
 
-import './Resume.css'
+import '../en/Resume.css'
 
 
 const Resume = () => {
     return (
         <section className="resume">
-            <h2 className="titleResume">Resume</h2>
+            <h2 className="titleResume">Zusammenfassung</h2>
             <div className="grid-2">
                 <div className="sec-experience">
                     <article className="resume-item">
                         <div className="resume-subtitle">
                             <img src={educationIcon} alt="education icon" />
-                            <h3 className='titleApartado'>Education</h3>
+                            <h3 className='titleApartado'>Ausbildung</h3>
                         </div>
                         <div className="content">
                             <div className="left-side">
                                 <div className="edu-info">
-                                    <p>Sep 2023 - On going</p>
+                                    <p>Sep 2023 - Aktuell</p>
                                     <span>Linkia FP</span>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const Resume = () => {
                     <article className="resume-item">
                         <div className="resume-subtitle">
                             <img src={certificatesIcon} alt="certification icon" />
-                            <h3 className='titleApartado'>Certifications</h3>
+                            <h3 className='titleApartado'>Zertifikate</h3>
                         </div>
                         <div className="content">
                             <div className="left-side">
@@ -52,14 +52,14 @@ const Resume = () => {
                                 </div>
                                 <div className="edu-info">
                                     <p>Dec 2023</p>
-                                    <span>EOI y Google</span>
+                                    <span>EOI & Google</span>
                                 </div>
                                 <div className="edu-info">
                                     <p>Oct 2023 - Jan 2024</p>
                                     <span>freeCodeCamp</span>
                                 </div>
                                 <div className="edu-info">
-                                    <p>Mar 2024</p>
+                                    <p>Mär 2024</p>
                                     <span>freeCodeCamp</span>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@ const Resume = () => {
                 </div>
                 <div className="sec-skills">
                     <article className="skill-item">
-                        <h3 className='titleApartado'>Web Coding Skills</h3>
+                        <h3 className='titleApartado'>Web Fähigkeiten</h3>
                         <div className="skill-slider">
                             <div className="slider">
                                 <p>HTML/CSS</p>
@@ -154,10 +154,22 @@ const Resume = () => {
                                     readOnly
                                 />
                             </div>
+                            <div className="slider">
+                                <p>Zustand</p>
+                                <input
+                                    className="slide"
+                                    type="range"
+                                    min="0"
+                                    max="100"
+                                    step="5"
+                                    value="35"
+                                    readOnly
+                                />
+                            </div>
                         </div>
                     </article>
                     <article className="skill-item">
-                        <h3 className='titleApartado' style={{ marginTop: '10vh' }}>Other Coding Skills</h3>
+                        <h3 className='titleApartado' style={{ marginTop: '10vh'}}>Andere Fähigkeiten</h3>
                         <div className="skill-slider">
                             <div className="slider">
                                 <p>Git</p>
@@ -200,17 +212,16 @@ const Resume = () => {
                 </div>
                 <div className="socialSkills">
                     <article className="socialItem">
-                        <h3 className='titleApartado'>Social Skills</h3>
+                        <h3 className='titleApartado'>soziale Fähigkeiten</h3>
                         <div className="socialTag">
-                            <span>Responsability</span>
-                            <span>Learn Quickly</span>
-                            <span>Curiosity</span>
-                            <span>Tranquility</span>
-                            <span>Friendly</span>
-                            <span>Patience</span>
-                            <span>Flexibility</span>
-                            <span>Communication</span>
-                            <span>Teamwork</span>
+                            <span>Schnelles Lernen</span>
+                            <span>neugierig</span>
+                            <span>ruhig</span>
+                            <span>freundlich</span>
+                            <span>geduld</span>
+                            <span>Flexibilität</span>
+                            <span>Kommunikation</span>
+                            <span>Teamarbeit</span>
                         </div>
                     </article>
 
@@ -223,11 +234,11 @@ const Resume = () => {
                         </div>
                     </article>
                     <article className="socialItem">
-                        <h3 className='titleApartado languageTitle'>Languages</h3>
+                        <h3 className='titleApartado languageTitle'>Sprachen</h3>
                         <ul style={{ listStyleType: 'none' }}>
-                            <li><img src={spain} alt='spain flag' className="bandera"></img><strong>Spanish</strong>  - Native</li>
-                            <li><img src={uk} alt='spain flag' className="bandera"></img><strong>English</strong> - B2</li>
-                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>German</strong> - B1</li>
+                            <li><img src={spain} alt='spain flag' className="bandera"></img><strong>Spanisch</strong>  - Müttersprache</li>
+                            <li><img src={uk} alt='spain flag' className="bandera"></img><strong>Englisch</strong> - B2</li>
+                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>Deutsch</strong> - B1</li>
                         </ul>
                     </article>
                 </div>
