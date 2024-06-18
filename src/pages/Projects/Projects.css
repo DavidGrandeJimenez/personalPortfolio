@@ -20,7 +20,7 @@ body {
 }
 
 .portfolioBox {
-    height: 90vh;
+    height: 95vh;
     background: linear-gradient(180deg, var(--primary-color) 75%, var(--secondary-color));
     color: var(--light-text);
     padding: 3rem;

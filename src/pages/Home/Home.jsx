@@ -41,7 +41,7 @@ export default function Home() {
     textAlign: 'center',
     paddingBottom: '7vh',
     fontFamily: 'sans-serif',
-    fontWeight:'bold',
+    fontWeight: 'bold',
     fontSize: { lg: '5rem', md: '5rem', sm: '5rem', xs: '3.5rem' },
   }
 
@@ -70,7 +70,7 @@ export default function Home() {
                 top: '5%',
                 right: '68%',
                 pointerEvents: 'none',
-                display:{xs:'none', sm:'block'}
+                display: { xs: 'none', sm: 'block' }
               }
             }}>
 
@@ -83,12 +83,12 @@ export default function Home() {
 
               <Typography variant="h1" component="h1" className="titleHome" sx={stylesH1}>
 
-                <Typography className={`name animate__animated ${temporaryTitleClass.name} ${temporaryClassName()}`} sx={{ fontWeight:'bold', fontSize: 'inherit', marginLeft: { xs: '2.5rem', sm:'0' }, marginBottom:{xs:'1rem', md:'1.6rem'}, lineHeight:'1.165' }} onMouseOver={handleMouseOverName} onMouseOut={handleMouseOutName} >DAVID</Typography>
+                <Typography className={`name animate__animated ${temporaryTitleClass.name} ${temporaryClassName()}`} sx={{ fontWeight: 'bold', fontSize: 'inherit', marginLeft: { xs: '2.5rem', sm: '0' }, marginBottom: { xs: '1rem', md: '1.6rem' }, lineHeight: '1.165' }} onMouseOver={handleMouseOverName} onMouseOut={handleMouseOutName} >DAVID</Typography>
 
                 <span className={`surname animate__animated ${temporaryTitleClass.surname} ${temporaryClassName()}`} onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}>GRANDE</span>
               </Typography>
 
-              <Box sx={{position:'relative', width:{sm:'100%', xs:'120%'}, fontSize:{lg:'2.5rem', md:'2.5rem', sm:'2.5rem', xs:'1.2rem'}, left:{lg:'1vw', md:'1vw', sm:'1vw', xs:'2rem'}, }}><p className="subtitleHome animate__animated animate__backInUp" onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}><Typing /></p></Box>
+              <Box sx={{ position: 'relative', width: { sm: '100%', xs: '120%' }, fontSize: { lg: '2.5rem', md: '2.5rem', sm: '2.5rem', xs: '1.2rem' }, left: { lg: '-1vw', md: '1vw', sm: '1vw', xs: '2rem' }, lineHeight: { lg: '9vh', md: '8vh', sm: '7vh', xs: '7vh' } }}><p className="subtitleHome animate__animated animate__backInUp" onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}><Typing /></p></Box>
             </div>
           </Grid>
 
@@ -102,7 +102,7 @@ export default function Home() {
                 transform: 'rotateY(180deg)',
                 height: '95%',
                 pointerEvents: 'none',
-                display:{xs:'none', sm:'block'}
+                display: { xs: 'none', sm: 'block' }
               }
             }}>
               <img src={gif2} alt="rosa" />

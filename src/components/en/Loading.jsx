@@ -1,4 +1,5 @@
 import React from 'react';
+import Box from '@mui/material/Box';
 
 const Loading = () => {
   const style = {
@@ -8,15 +9,15 @@ const Loading = () => {
     height: '100vh',
     backgroundColor: '#0e1128',
     color: 'white',
-    fontSize: '24px', 
+    fontSize: {lg:'24px', md:'24px', sm:'18px', xs:'12px'}, 
     fontWeight: 'bold'
   };
 
   return (
-    <div style={style}>
+    <Box sx={style}>
       Loading...
       Please, wait a second.
-    </div>
+    </Box>
   );
 }
 

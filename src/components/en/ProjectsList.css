@@ -6,9 +6,8 @@
 }
 
 .project-card {
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 20px;
-    height: 22vw;
     background-color: #163575;
     border: 0.2rem solid white; 
     
@@ -16,17 +15,17 @@
 }
 
 .img-zoom {
-    height: 35vh;
+    height: 90%;
     overflow: hidden;
     border-radius: 20px;
     border: 0.1rem solid white;
     cursor: pointer;
     margin-bottom: 1rem;
+    object-fit: contain;
 }
 
 .image {
-    object-fit: scale-down;
-    height: 35vh;
+    height: 100%;
     display: block;
     margin: 0 auto;
     transition: transform 0.5s ease-in-out;
