@@ -60,8 +60,8 @@ const gridContent = () => {
             <ResumeES />
         </>);
         case 'DE': return (<>
-            <Grid container spacing={5} justify="center" alignItems="center">
-                <Grid item lg={6}>
+            <Grid container spacing={0} justify="center" alignItems="center">
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                     <ProfileCardDE />
                 </Grid>
                 <Grid item lg={6}>

@@ -115,7 +115,7 @@ const Resume = () => {
                     </article>
                 </div>
                 <div className="sec-skills">
-                    <article className="skill-item">
+                    <article className="skill-item skill-itemA ">
                         <h3 className='titleApartado'>Habilidades de Programación Web</h3>
                         <div className="skill-slider">
                             <div className="slider">
@@ -168,7 +168,7 @@ const Resume = () => {
                             </div>
                         </div>
                     </article>
-                    <article className="skill-item">
+                    <article className="skill-item skill-itemB">
                         <h3 className='titleApartado' style={{ marginTop: '10vh' }}>Otras Habilidades de programación</h3>
                         <div className="skill-slider">
                             <div className="slider">

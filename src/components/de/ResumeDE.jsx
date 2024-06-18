@@ -14,7 +14,7 @@ import '../en/Resume.css'
 const Resume = () => {
     return (
         <section className="resume">
-            <h2 className="titleResume">Zusammenfassung</h2>
+            <h2 className="titleResume" style={{fontSize:'1.5rem'}}>Zusammenfassung</h2>
             <div className="grid-2">
                 <div className="sec-experience">
                     <article className="resume-item">
@@ -115,7 +115,7 @@ const Resume = () => {
                     </article>
                 </div>
                 <div className="sec-skills">
-                    <article className="skill-item">
+                    <article className="skill-item skill-itemA">
                         <h3 className='titleApartado'>Web Fähigkeiten</h3>
                         <div className="skill-slider">
                             <div className="slider">
@@ -168,7 +168,7 @@ const Resume = () => {
                             </div>
                         </div>
                     </article>
-                    <article className="skill-item">
+                    <article className="skill-item skill-itemB">
                         <h3 className='titleApartado' style={{ marginTop: '10vh'}}>Andere Fähigkeiten</h3>
                         <div className="skill-slider">
                             <div className="slider">
