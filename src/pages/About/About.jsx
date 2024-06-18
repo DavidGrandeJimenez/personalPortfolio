@@ -49,8 +49,8 @@ const gridContent = () => {
         </>);
 
         case 'ES': return (<>
-            <Grid container spacing={5} justify="center" alignItems="center">
-                <Grid item lg={6}>
+            <Grid container spacing={0} justify="center" alignItems="center">
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                     <ProfileCardES />
                 </Grid>
                 <Grid item lg={6}>

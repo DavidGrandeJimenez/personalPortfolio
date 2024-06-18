@@ -109,16 +109,16 @@ export default function ButtonAppBar() {
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2, display: { xs: 'block', sm: 'none' } }}
+            sx={{ mr: 2, display: { xs: 'block', sm: 'block', md:'none' } }}
             onClick={handleMenu}
           ><MenuIcon />
           </IconButton>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', sm: 'none', md:'block' } }}>
             <Button sx={buttonStyles} onClick={clickLanguageEN}><Typography sx={linkStyle}><span style={{ color: styleLanguage('EN') }}>EN</span></Typography></Button>
             <Button sx={buttonStyles} onClick={clickLanguageES}><Typography sx={linkStyle}><span style={{ color: styleLanguage('ES') }}>ES</span></Typography></Button>
             <Button sx={buttonStyles} onClick={clickLanguageDE}><Typography sx={linkStyle}><span style={{ color: styleLanguage('DE') }}>DE</span></Typography></Button>
           </Box>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: 'none', sm: 'none', md:'block' } }}>
             <Button sx={buttonStyles}>{<Link to="/" style={{ textDecoration: 'none' }}><Typography sx={linkStyle}>{setContentMenu(0)}</Typography></Link>}</Button>
             <Button sx={buttonStyles}>{<Link to="/proyects" style={{ textDecoration: 'none' }}><Typography sx={linkStyle}>{setContentMenu(1)}</Typography></Link>}</Button>
             <Button sx={buttonStyles}>{<Link to="/about" style={{ textDecoration: 'none' }}><Typography sx={linkStyle}>{setContentMenu(2)}</Typography></Link>}</Button>

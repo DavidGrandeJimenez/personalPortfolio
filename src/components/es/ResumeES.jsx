@@ -116,7 +116,7 @@ const Resume = () => {
                 </div>
                 <div className="sec-skills">
                     <article className="skill-item skill-itemA ">
-                        <h3 className='titleApartado'>Habilidades de Programación Web</h3>
+                        <h3 className='titleApartado' style={{fontSize:'1.5rem'}}>Habilidades Web</h3>
                         <div className="skill-slider">
                             <div className="slider">
                                 <p>HTML/CSS</p>
@@ -169,7 +169,7 @@ const Resume = () => {
                         </div>
                     </article>
                     <article className="skill-item skill-itemB">
-                        <h3 className='titleApartado' style={{ marginTop: '10vh' }}>Otras Habilidades de programación</h3>
+                        <h3 className='titleApartado' style={{ marginTop: '5vh', fontSize:'1.5rem' }}>Otras Habilidades</h3>
                         <div className="skill-slider">
                             <div className="slider">
                                 <p>Git</p>

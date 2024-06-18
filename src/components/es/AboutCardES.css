@@ -42,7 +42,7 @@
     font-weight: 500;
 }
 
-.fotoDavid {
+.fotoDavidES{
     height: 55vh;
     width: 13vw;
     margin-left: 32%;
@@ -59,10 +59,10 @@
         margin: 0 2rem;
     }
 
-    .fotoDavid {
-        height: 48%;
-        width: 45%;
-        margin-bottom: 22%;
+    .fotoDavidES{
+        height: 38%;
+        width: 41%;
+        margin-bottom: 2%;
     }
 }
 
@@ -72,25 +72,25 @@
         margin-bottom: 6.5rem;
     }
 
-    .fotoDavid {
-        height: 52%;
+    .fotoDavidES{
+        height: 40%;
         width: 42%;
         margin-bottom: 10%;
     }
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
-    .fotoDavid {
-        height: 43%;
-        width: 72%;
+    .fotoDavidES {
+        height: 35%;
+        width: 65%;
         margin-bottom: 10%;
         margin-left: 15%;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .fotoDavid {
-        height: 31%;
+    .fotoDavidES{
+        height: 25%;
         width: 65%;
         margin-bottom: 10%;
         margin-left: 20%;

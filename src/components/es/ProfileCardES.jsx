@@ -54,9 +54,9 @@ const ProfileCard = () => {
                     <a
                         href="https://aleksandrachirtoska.com/files/Resume-Aleksandra-Chirtoska-jan23.pdf"
                         target="_blank"
-                        className="download-btn" style={{marginTop:'5rem', padding:'20px', fontSize:'1.5rem', width:'20vw'}}
+                        className="download-btn"
                     >
-                        <img src={download} alt="download resume" style={{width:'2vw'}}/>  Descargar CV
+                        <img src={download} alt="download resume"/>  Descargar CV
                     </a>
                 </div>
             </article>

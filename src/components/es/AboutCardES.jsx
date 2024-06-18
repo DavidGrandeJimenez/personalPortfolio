@@ -1,4 +1,4 @@
-import '../en/AboutCard.css'
+import './AboutCardES.css'
 import foto from '../../assets/fotoDefinitiva2.png'
 
 const AboutCard = () => {
@@ -14,7 +14,7 @@ const AboutCard = () => {
                 </p>
                 <p className='ParagAboutCard'>Simplemente soy un chico tranquilo, pero con una gran curiosidad en aprender nuevas cosas, así commo interesado en trabajar rodeado de gente positiva.</p>
 
-                <img src={foto} alt='foto David' style={{ height: '53vh', width: '13vw', marginLeft: '32%', borderRadius: '20px', marginBottom: '2%', marginTop: '1%', boxShadow: '5px -2px 8px rgba(0, 0, 0, 0.5)'}}></img>
+                <img src={foto} alt='foto David' className='fotoDavidES'></img>
             </div>
         </section>
     );
