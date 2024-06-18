@@ -14,7 +14,7 @@ const AboutCard = () => {
                 </p>
                 <p className='ParagAboutCard'>Just a calm boy with great curiosity of learning new things. Interested in working on projects with positive people.</p>
 
-                <img src={foto} alt='foto David' style={{ height: '53vh', width: '13vw', marginLeft: '32%', borderRadius: '20px', marginBottom: '2%', marginTop: '1%', boxShadow: '5px -2px 8px rgba(0, 0, 0, 0.5)'}}></img>
+                <img src={foto} alt='foto David' className='fotoDavid'></img>
             </div>
         </section>
     );

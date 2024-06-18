@@ -37,11 +37,11 @@ const footerLanguage = () => {
 const gridContent = () => {
     switch (language) {
         case 'EN': return (<>
-            <Grid container spacing={5} justify="center" alignItems="center">
-                <Grid item lg={6}>
+            <Grid container spacing={0} justify="center" alignItems="center">
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                     <ProfileCardEN />
                 </Grid>
-                <Grid item lg={6}>
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                     <AboutCardEN />
                 </Grid>
             </Grid >
@@ -76,8 +76,9 @@ const gridContent = () => {
         <>
             <main className='backgroundAbout'>
                 {gridContent()}
+                {footerLanguage()}
             </main>
-            {footerLanguage()}
+            
         </>
     );
 }

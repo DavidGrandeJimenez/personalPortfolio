@@ -1,6 +1,5 @@
 .resume {
-    margin: 5rem;
-    margin-top: 0;
+    margin: 0 5rem 5rem 5rem;
     background: radial-gradient(circle, rgba(201, 0, 0, 0.307), rgba(255, 255, 255, 0.9));
     border-radius: 1rem;
     padding: 2rem;
@@ -207,7 +206,7 @@
 
 .hobbiesTitle {
     margin-bottom: 0 !important;
-    margin-top:-5vh;
+    margin-top: -5vh;
 }
 
 .languageTitle {
@@ -215,10 +214,113 @@
 }
 
 .bandera {
-   height: 30px;
-   width: 30px;
-   margin-right: 0.5vw;
-   top:1.2vh;
-   position:relative;
-   
+    height: 30px;
+    width: 30px;
+    margin-right: 0.5vw;
+    top: 1.2vh;
+    position: relative;
+
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+    .resume {
+        margin: 1rem -1rem 5rem -1rem;
+
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    .resume {
+        margin: 0 4rem 2rem 4rem;
+        text-align: center;
+    }
+
+    .resume-subtitle {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .grid-2 {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .content {
+        height: 8vh !important;
+    }
+
+    .skill-itemA {
+        margin-top: 18vh !important;
+    }
+
+    .skill-itemB {
+        margin-top: 5vh !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume {
+        margin: 0 -2rem 2rem -2rem;
+        text-align: center;
+    }
+
+    .resume-subtitle {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .contact-item{
+        flex-direction: column;
+    }
+
+    .grid-2 {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .content {
+        height: 8vh !important;
+        font-size: 0.8rem !important;
+        width: 135% !important;
+        margin-left: -2rem;
+        justify-content: center;
+        line-height: 1.1rem;
+
+    }
+
+    .content .left-side {
+        line-height: 1rem;
+    }
+
+    .content .middle {
+        gap: 2.2rem !important;
+    }
+
+    .skill-itemA {
+        margin-top: 28vh !important;
+    }
+
+    .skill-itemB {
+        margin-top: 5vh !important;
+    }
+
+    .socialItem {
+        width: 90%;
+        margin-left: 1.5rem;
+        height: 10%;
+
+    }
+
+    .socialSkills {
+        grid-template-rows: repeat(1, 1fr) !important;
+    }
+
+    .hobbiesTitle {
+        margin-top: 5rem;
+    }
+
+    .hobbies-grid {
+        flex-direction: column;
+    }
+
+    .languageTitle {
+        margin-top:3.5rem;
+    }
 }
