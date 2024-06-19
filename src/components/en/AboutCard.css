@@ -81,29 +81,39 @@
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
     .fotoDavid {
-        height: 43%;
+        height: 50% !important;
         width: 72%;
         margin-bottom: 10%;
         margin-left: 15%;
+    }
+
+    .aboutBox {
+        margin: 0 -2rem 5rem -2rem !important;
     }
 }
 
 @media screen and (max-width: 400px) {
     .fotoDavid {
-        height: 31%;
+        height: 42% !important;
         width: 65%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         margin-left: 20%;
     }
 
-}@media screen and (max-width: 600px) {
+    .aboutBox {
+        margin: 0 -2rem 5rem -2rem !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
     .aboutBox {
         position: static;
-        margin: 0 0.1rem;
+        margin: 0 -2rem;
         margin-bottom: 6.5rem;
     }
 
     .textAboutCard {
-        font-size: 1rem;    
+        font-size: 1rem;
     }
 }

@@ -67,7 +67,7 @@ body {
   position: relative;
   top: 1rem;
   font-weight: bold;
-  font-family: Consolas, 'Courier New', monospace;
+  font-family: monospace;
   text-align: center;
   line-height: 7vh;
   left: 1vw;

@@ -39,4 +39,9 @@ body {
 .subtitleProjects {
     margin-bottom: 8vh;
     font-family: var(--heading-title-family);
+
+}@media screen and (max-width: 600px){
+
+}.portfolioBox{
+    height:130vh;
 }
