@@ -9,6 +9,7 @@ import webPage from "../../assets/web-color.png";
 import location from "../../assets/location-color.png";
 import download from "../../assets/download.png";
 import perfil from '../../assets/perfil.jpg';
+import cvEN from '../../assets/CV_David_Grande_EN.pdf'
 
 import './ProfileCard.css'
 
@@ -22,7 +23,7 @@ const ProfileCard = () => {
                 <h1 className="display-name">David Grande Jiménez</h1>
                 <h2 className="career-title">Web Developer</h2>
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/aleksandra-chirtoska/" target="_blank">
+                    <a href="https://www.linkedin.com/in/david-grande-jim%C3%A9nez-9213b2230/" target="_blank">
                         <img src={linkedin} alt="LinkedIn icon" className="imageProfileCard" />
                     </a>
                     <a href="https://github.com/DavidGrandeJimenez" target="_blank">
@@ -51,7 +52,7 @@ const ProfileCard = () => {
                 </div>
                 <div className="download-resume">
                     <a
-                        href="https://aleksandrachirtoska.com/files/Resume-Aleksandra-Chirtoska-jan23.pdf"
+                        href={cvEN}
                         target="_blank"
                         className="download-btn"
                     >

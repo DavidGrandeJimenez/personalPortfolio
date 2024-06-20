@@ -9,6 +9,7 @@ import webPage from "../../assets/web-color.png";
 import location from "../../assets/location-color.png";
 import download from "../../assets/download.png";
 import perfil from '../../assets/perfil.jpg';
+import cvDE from '../../assets/CV_David_Grande_DE.pdf'
 
 import '../en/ProfileCard.css'
 
@@ -51,7 +52,7 @@ const ProfileCard = () => {
                 </div>
                 <div className="download-resume">
                     <a
-                        href="https://aleksandrachirtoska.com/files/Resume-Aleksandra-Chirtoska-jan23.pdf"
+                        href={cvDE}
                         target="_blank"
                         className="download-btn"
                     >

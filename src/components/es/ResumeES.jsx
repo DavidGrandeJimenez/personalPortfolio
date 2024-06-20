@@ -239,7 +239,7 @@ const Resume = () => {
                         <ul style={{ listStyleType: 'none' }}>
                             <li><img src={spain} alt='spain flag' className="bandera"></img><strong>Español</strong>  - Nativo</li>
                             <li><img src={uk} alt='spain flag' className="bandera"></img><strong>Inglés</strong> - B2</li>
-                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>Alemán</strong> - B1</li>
+                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>Alemán</strong> - B1/B2</li>
                         </ul>
                     </article>
                 </div>
