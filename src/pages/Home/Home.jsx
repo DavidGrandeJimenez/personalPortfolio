@@ -88,7 +88,7 @@ export default function Home() {
                 <span className={`surname animate__animated ${temporaryTitleClass.surname} ${temporaryClassName()}`} onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}>GRANDE</span>
               </Typography>
 
-              <Box sx={{ position: 'relative', width: { sm: '100%', xs: '120%' }, fontSize: { lg: '2.5rem', md: '2.5rem', sm: '2.5rem', xs: '1.2rem' }, left: { lg: '-1vw', md: '1vw', sm: '1vw', xs: '2rem' }, lineHeight: { lg: '9vh', md: '8vh', sm: '7vh', xs: '7vh' } }}><p className="subtitleHome animate__animated animate__backInUp" onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}><Typing /></p></Box>
+              <Box sx={{ position: 'relative', width: { sm: '100%', xs: '120%' }, fontSize: { lg: '2.5rem', md: '2.5rem', sm: '2.5rem', xs: '1.2rem' }, left: { lg: '-1vw', md: '1vw', sm: '1vw', xs: '1.2rem' }, lineHeight: { lg: '9vh', md: '8vh', sm: '7vh', xs: '7vh' } }}><p className="subtitleHome animate__animated animate__backInUp" onMouseOver={handleMouseOverSurname} onMouseOut={handleMouseOutSurname}><Typing /></p></Box>
             </div>
           </Grid>
 
