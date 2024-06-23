@@ -207,6 +207,18 @@ const Resume = () => {
                                     readOnly
                                 />
                             </div>
+                            <div className="slider">
+                                <p>SQL</p>
+                                <input
+                                    className="slide"
+                                    type="range"
+                                    min="0"
+                                    max="100"
+                                    step="5"
+                                    value="40"
+                                    readOnly
+                                />
+                            </div>
                         </div>
                     </article>
                 </div>
@@ -238,7 +250,7 @@ const Resume = () => {
                         <ul style={{ listStyleType: 'none' }}>
                             <li><img src={spain} alt='spain flag' className="bandera"></img><strong>Spanisch</strong>  - Müttersprache</li>
                             <li><img src={uk} alt='spain flag' className="bandera"></img><strong>Englisch</strong> - B2</li>
-                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>Deutsch</strong> - B1/B2</li>
+                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>Deutsch</strong> - B1</li>
                         </ul>
                     </article>
                 </div>

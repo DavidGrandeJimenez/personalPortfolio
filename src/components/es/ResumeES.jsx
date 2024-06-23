@@ -203,7 +203,19 @@ const Resume = () => {
                                     min="0"
                                     max="100"
                                     step="5"
-                                    value="50"
+                                    value="40"
+                                    readOnly
+                                />
+                            </div>
+                            <div className="slider">
+                                <p>SQL</p>
+                                <input
+                                    className="slide"
+                                    type="range"
+                                    min="0"
+                                    max="100"
+                                    step="5"
+                                    value="40"
                                     readOnly
                                 />
                             </div>
@@ -239,7 +251,7 @@ const Resume = () => {
                         <ul style={{ listStyleType: 'none' }}>
                             <li><img src={spain} alt='spain flag' className="bandera"></img><strong>Español</strong>  - Nativo</li>
                             <li><img src={uk} alt='spain flag' className="bandera"></img><strong>Inglés</strong> - B2</li>
-                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>Alemán</strong> - B1/B2</li>
+                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>Alemán</strong> - B1</li>
                         </ul>
                     </article>
                 </div>
