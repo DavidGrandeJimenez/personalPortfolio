@@ -1,5 +1,5 @@
 import './AboutCardDE.css'
-import foto from '../../assets/fotoDefinitiva2.png'
+import foto from '../../assets/fotoDefinitiva3.png'
 
 const AboutCard = () => {
     return (
@@ -15,7 +15,7 @@ const AboutCard = () => {
                 </p>
                 <p className='ParagAboutCard' style={{padding:'0.7rem'}}>Ein ruhiger Junge mit großer Neugier, um neue Dinge zu lernen. Ich möchte in Projekte mit positiven Menschen arbeiten.</p>
 
-                <img src={foto} alt='foto David' className='fotoDavid'></img>
+                <img src={foto} alt='foto David' className='fotoDavidDE'></img>
             </div>
         </section>
     );

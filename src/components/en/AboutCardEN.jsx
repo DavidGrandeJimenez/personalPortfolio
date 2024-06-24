@@ -1,5 +1,5 @@
 import './AboutCard.css'
-import foto from '../../assets/fotoDefinitiva2.png'
+import foto from '../../assets/fotoDefinitiva3.png'
 
 const AboutCard = () => {
     return (

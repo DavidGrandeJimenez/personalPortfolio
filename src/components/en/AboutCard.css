@@ -43,9 +43,9 @@
 }
 
 .fotoDavid {
-    height: 58vh;
-    width: 13vw;
-    margin-left: 32%;
+    height: 53vh;
+    width: 18vw;
+    margin-left: 25%;
     border-radius: 20px;
     margin-bottom: 2%;
     margin-top: 1%;
@@ -60,9 +60,10 @@
     }
 
     .fotoDavid {
-        height: 42%;
-        width: 40%;
+        height: 50%;
+        width: 80%;
         margin-bottom: 10%;
+        margin-left: 10%;
     }
 }
 
@@ -73,15 +74,15 @@
     }
 
     .fotoDavid {
-        height: 50%;
-        width: 42%;
+        height: 45%;
+        width: 52%;
         margin-bottom: 10%;
     }
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
     .fotoDavid {
-        height: 50% !important;
+        height: 45% !important;
         width: 72%;
         margin-bottom: 10%;
         margin-left: 15%;
@@ -94,10 +95,10 @@
 
 @media screen and (max-width: 400px) {
     .fotoDavid {
-        height: 42% !important;
-        width: 65%;
+        height: 33% !important;
+        width: 61%;
         margin-bottom: 5%;
-        margin-left: 20%;
+        margin-left: 17%;
     }
 
     .aboutBox {

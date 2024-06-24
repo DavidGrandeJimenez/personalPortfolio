@@ -261,6 +261,7 @@
     .resume {
         margin: 0 -2rem 2rem -2rem;
         text-align: center;
+        padding: 2rem 1rem;
     }
 
     .resume-subtitle {
@@ -287,6 +288,10 @@
 
     .content .left-side {
         line-height: 1rem;
+    }
+
+    .content .right-side {
+        padding-right: 3rem;
     }
 
     .content .middle {

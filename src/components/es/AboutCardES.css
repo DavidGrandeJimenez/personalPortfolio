@@ -43,9 +43,9 @@
 }
 
 .fotoDavidES{
-    height: 55vh;
-    width: 13vw;
-    margin-left: 32%;
+    height: 43vh;
+    width: 14vw;
+    margin-left: 30%;
     border-radius: 20px;
     margin-bottom: 2%;
     margin-top: 1%;
@@ -61,7 +61,8 @@
 
     .fotoDavidES{
         height: 38%;
-        width: 41%;
+        width: 57%;
+        margin-left: 25%;
         margin-bottom: 2%;
     }
 }
@@ -73,7 +74,7 @@
     }
 
     .fotoDavidES{
-        height: 40%;
+        height: 38%;
         width: 42%;
         margin-bottom: 10%;
     }
@@ -81,7 +82,7 @@
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
     .fotoDavidES {
-        height: 42%;
+        height: 35%;
         width: 65%;
         margin-bottom: 10%;
         margin-left: 15%;
@@ -90,10 +91,10 @@
 
 @media screen and (max-width: 400px) {
     .fotoDavidES{
-        height: 25%;
-        width: 65%;
+        height: 28%;
+        width: 67%;
         margin-bottom: 10%;
-        margin-left: 20%;
+        margin-left: 17%;
     }
 
 }@media screen and (max-width: 600px) {

@@ -42,10 +42,10 @@
     font-weight: 500;
 }
 
-.fotoDavid {
+.fotoDavidDE {
     height: 55vh;
-    width: 13vw;
-    margin-left: 32%;
+    width: 19vw;
+    margin-left: 25%;
     border-radius: 20px;
     margin-bottom: 2%;
     margin-top: 1%;
@@ -57,12 +57,18 @@
     .aboutBox {
         top: 14%;
         margin: 0 2rem;
+        bottom: 18%;
     }
 
-    .fotoDavid {
-        height: 48%;
-        width: 45%;
-        margin-bottom: 22%;
+    .fotoDavidDE {
+        height: 50%;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    .textAboutCard {
+        height: 100%;
     }
 }
 
@@ -72,16 +78,20 @@
         margin-bottom: 6.5rem;
     }
 
-    .fotoDavid {
-        height: 52%;
-        width: 42%;
+    .fotoDavidDE {
+        height: 45%;
+        width: 45%;
         margin-bottom: 10%;
+    }
+
+    .textAboutCard {
+        height: 100%;
     }
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
-    .fotoDavid {
-        height: 43%;
+    .fotoDavidDE {
+        height: 45%;
         width: 72%;
         margin-bottom: 10%;
         margin-left: 15%;
@@ -89,14 +99,16 @@
 }
 
 @media screen and (max-width: 400px) {
-    .fotoDavid {
-        height: 31%;
-        width: 65%;
+    .fotoDavidDE {
+        height: 38%;
+        width: 70%;
         margin-bottom: 10%;
-        margin-left: 20%;
+        margin-left: 15%;
     }
 
-}@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .aboutBox {
         position: static;
         margin: 0 0.1rem;
@@ -104,6 +116,6 @@
     }
 
     .textAboutCard {
-        font-size: 1rem;    
+        font-size: 1rem;
     }
 }
