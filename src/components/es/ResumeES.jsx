@@ -10,6 +10,22 @@ import germany from '../../assets/germany.png'
 
 import '../en/Resume.css'
 
+const Certificate = ({ date, organization, link, nameCertificate }) => {
+    return (
+        <div className="edu-info">
+            <p>{date}<br /><span className='organization' >{organization}</span></p>
+            <img src={dotSeparator} alt="separator" className="dot-separator" />
+            <p>
+                <a className='certificate'
+                    href={link}
+                    target="_blank"
+                >
+                    {nameCertificate}
+                </a>
+            </p>
+        </div>
+    )
+}
 
 const Resume = () => {
     return (
@@ -23,20 +39,7 @@ const Resume = () => {
                             <h3 className='titleApartado'>Educación</h3>
                         </div>
                         <div className="content">
-                            <div className="left-side">
-                                <div className="edu-info">
-                                    <p>Sep 2023 - Actual</p>
-                                    <span>Linkia FP</span>
-                                </div>
-                            </div>
-                            <div className="middle">
-                                <span className="dot-separator">
-                                    <img src={dotSeparator} alt="separator" />
-                                </span>
-                            </div>
-                            <div className="right-side">
-                                <p>Grado Superior en Desarrollo de Aplicaciones Web</p>
-                            </div>
+                            <Certificate date='Sep 2023 - Actual' organization='Linkia FP' link='https://linkiafp.es/fp-grado-superior-desarrollo-de-aplicaciones-web-a-distancia/' nameCertificate='Grado Superior en Desarrollo de Aplicaciones Web' />
                         </div>
                     </article>
                     <article className="resume-item">
@@ -45,78 +48,22 @@ const Resume = () => {
                             <h3 className='titleApartado'>Certificaciones</h3>
                         </div>
                         <div className="content">
-                            <div className="left-side">
-                                <div className="edu-info">
-                                    <p>Nov 2023</p>
-                                    <span>Google</span>
-                                </div>
-                                <div className="edu-info">
-                                    <p>Dic 2023</p>
-                                    <span>EOI y Google</span>
-                                </div>
-                                <div className="edu-info">
-                                    <p>Oct 2023 - Ene 2024</p>
-                                    <span>freeCodeCamp</span>
-                                </div>
-                                <div className="edu-info">
-                                    <p>Mar 2024</p>
-                                    <span>freeCodeCamp</span>
-                                </div>
-                            </div>
-                            <div className="middle">
-                                <span className="dot-separator" >
-                                    <img src={dotSeparator} alt="separator" />
-                                </span>
-                                <span className="dot-separator">
-                                    <img src={dotSeparator} alt="separator" />
-                                </span>
-                                <span className="dot-separator">
-                                    <img src={dotSeparator} alt="separator" />
-                                </span>
-                                <span className="dot-separator">
-                                    <img src={dotSeparator} alt="separator" />
-                                </span>
-                            </div>
-                            <div className="right-side">
-                                <p>
-                                    <a
-                                        href="https://analytics.google.com/analytics/web"
-                                        target="_blank"
-                                    >
-                                        Certificación de Google Analytics 4
-                                    </a>
-                                </p>
-                                <p>
-                                    <a
-                                        href="https://skillshop.exceedlms.com/student/collection/786255-cloud-computing"
-                                        target="_blank"
-                                    >
-                                        Basic Certification Cloud Computing
-                                    </a>
-                                </p>
-                                <p>
-                                    <a
-                                        href="https://www.freecodecamp.org/certification/davidgrandewebs/responsive-web-design"
-                                        target="_blank"
-                                    >
-                                        Responsive Web Design con HTML/CSS
-                                    </a>
-                                </p>
-                                <p>
-                                    <a
-                                        href="https://freecodecamp.org/certification/davidgrandewebs/javascript-algorithms-and-data-structures-v8"
-                                        target="_blank"
-                                    >
-                                        JavaScript Algorithms con JavaScrip Vanilla
-                                    </a>
-                                </p>
-                            </div>
+                            <Certificate date='Nov 2023' organization='Google' link='https://analytics.google.com/analytics/web' nameCertificate='Certificación de Google Analytics 4' />
+
+                            <Certificate date='Dic 2023' organization='EOI & Google' link='https://skillshop.exceedlms.com/student/collection/786255-cloud-computing' nameCertificate='Certificación básica de Cloud Computing' />
+
+                            <Certificate date='Oct 2023 - Ene 2024' organization='freeCodeCamp' link='https://www.freecodecamp.org/certification/davidgrandewebs/responsive-web-design' nameCertificate='Responsive Web Design con HTML/CSS' />
+
+                            <Certificate date='Jan 2024 - Mar 2024' organization='freeCodeCamp' link='https://freecodecamp.org/certification/davidgrandewebs/javascript-algorithms-and-data-structures-v8' nameCertificate='JavaScript Algorithms con JavaScrip Vanilla' />
+
+                            <Certificate date='Mar 2024 - Jul 2024' organization='Meta & Coursera' link='https://www.coursera.org/professional-certificates/meta-front-end-developer' nameCertificate='Certificado profesional de Desarrollador de front-end de Meta' />
+
                         </div>
                     </article>
                 </div>
                 <div className="sec-skills">
                     <article className="skill-item skill-itemA ">
-                        <h3 className='titleApartado' style={{fontSize:'1.5rem'}}>Habilidades Web</h3>
+                        <h3 className='titleApartado' style={{ fontSize: '1.5rem' }}>Habilidades Web</h3>
                         <div className="skill-slider">
                             <div className="slider">
                                 <p>HTML/CSS</p>
@@ -169,7 +116,7 @@ const Resume = () => {
                         </div>
                     </article>
                     <article className="skill-item skill-itemB">
-                        <h3 className='titleApartado' style={{ marginTop: '5vh', fontSize:'1.5rem' }}>Otras Habilidades</h3>
+                        <h3 className='titleApartado' style={{ marginTop: '5vh', fontSize: '1.5rem' }}>Otras Habilidades</h3>
                         <div className="skill-slider">
                             <div className="slider">
                                 <p>Git</p>
@@ -251,7 +198,7 @@ const Resume = () => {
                         <ul style={{ listStyleType: 'none' }}>
                             <li><img src={spain} alt='spain flag' className="bandera"></img><strong>Español</strong>  - Nativo</li>
                             <li><img src={uk} alt='spain flag' className="bandera"></img><strong>Inglés</strong> - B2</li>
-                            <li style={{marginBottom:'8vh'}}><img src={germany} alt='spain flag' className="bandera"></img><strong>Alemán</strong> - B1</li>
+                            <li style={{ marginBottom: '8vh' }}><img src={germany} alt='spain flag' className="bandera"></img><strong>Alemán</strong> - B1</li>
                         </ul>
                     </article>
                 </div>

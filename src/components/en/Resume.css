@@ -33,6 +33,8 @@
     justify-content: center;
     background-color: rgba(255, 243, 252, 0.55);
     border-radius: 1rem;
+    height: auto;
+    padding-bottom: 10%;
 }
 
 .resume .grid-2 .sec-experience {
@@ -41,6 +43,11 @@
 
 .resume .grid-2 .sec-experience .resume-item {
     margin: 2rem;
+    padding: 1rem 2rem;
+
+}
+.certifications{
+    height: 60%;
 }
 
 .resume .grid-2 .sec-experience .resume-item .resume-subtitle {
@@ -60,66 +67,36 @@
 }
 
 .resume .grid-2 .sec-experience .resume-item .content {
-    display: flex;
+    display: grid;
     gap: 1rem;
     font-weight: 600;
     margin-top: 1rem;
     height: 18vh;
-}
+    grid-template-columns: 35% 15% 60%;
+    line-height: 1.5rem;
 
-.resume .grid-2 .sec-experience .resume-item .content .left-side {
-    display: grid;
-    justify-content: space-between;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 1.5rem;
-    text-align: right;
 }
-
-.resume .grid-2 .sec-experience .resume-item .content .left-side span {
+.content div{
+    display: contents;
+}
+.organization{
     font-size: 0.8rem;
     color: rgb(106, 1, 1);
+    text-align: center;
 }
-
-.resume .grid-2 .sec-experience .resume-item .content .middle {
-    display: grid;
-    justify-content: space-between;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 2.8rem;
+.dot-separator{
+    width: 1.5rem;
 }
-
-.resume .grid-2 .sec-experience .resume-item .content .middle .dot-separator {
-    display: block;
-}
-
-.resume .grid-2 .sec-experience .resume-item .content .middle .dot-separator img {
-    width: 20px;
-}
-
-.resume .grid-2 .sec-experience .resume-item .content .right-side {
-    display: grid;
-    justify-content: space-between;
-    grid-template-rows: repeat(3, 1fr);
-}
-
-.resume .grid-2 .sec-experience .resume-item .content .right-side p {
-    margin-bottom: 1.5rem;
-}
-
-.resume .grid-2 .sec-experience .resume-item .content .right-side p a {
+.certificate{
     font-size: 1em;
     font-weight: 600;
     color: black;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     transition: 0.3s ease-in-out;
-
-}
-
-.resume .grid-2 .sec-experience .resume-item .content .right-side p a:hover {
+}.certificate:hover{
     text-decoration: none;
-}
-
-.resume .grid-2 .sec-experience .resume-item .content .right-side p a:active {
+}.certificate:active{
     color: rgb(106, 1, 1);
 }
 
@@ -280,24 +257,11 @@
         height: 8vh !important;
         font-size: 0.8rem !important;
         width: 135% !important;
-        margin-left: -2rem;
-        justify-content: center;
-        line-height: 1.1rem;
-
+        margin-left: -2.5rem;
+        line-height: 1.1rem !important;
+        grid-template-columns: 35% 10% 40% !important;
+        gap:1.2rem !important;
     }
-
-    .content .left-side {
-        line-height: 1rem;
-    }
-
-    .content .right-side {
-        padding-right: 3rem;
-    }
-
-    .content .middle {
-        gap: 2.2rem !important;
-    }
-
     .skill-itemA {
         margin-top: 28vh !important;
     }
