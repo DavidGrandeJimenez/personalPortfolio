@@ -57,7 +57,7 @@ const Resume = () => {
 
                             <Certificate date='Jan 2024 - Mar 2024' organization='freeCodeCamp' link='https://freecodecamp.org/certification/davidgrandewebs/javascript-algorithms-and-data-structures-v8' nameCertificate='JavaScript Algorithms and Data Structures with JavaScrip Vanilla' />
 
-                            <Certificate date='Mar 2024 - Jul 2024' organization='Meta & Coursera' link='https://www.coursera.org/professional-certificates/meta-front-end-developer' nameCertificate='Meta Front-End Developer Professional Certificate' />
+                            <Certificate date='Mar 2024 - Jul 2024' organization='Meta & Coursera' link='https://coursera.org/verify/professional-cert/DTO9SEBFEIP6' nameCertificate='Meta Front-End Developer Professional Certificate' />
 
                         </div>
                     </article>
