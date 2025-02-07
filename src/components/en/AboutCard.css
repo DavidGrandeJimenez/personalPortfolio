@@ -9,8 +9,6 @@
     justify-content: space-evenly;
     align-content: center;
     box-shadow: rgba(255, 255, 255, 0.33) 0px 48px 100px 0px;
-    position: absolute;
-    top: 27%;
 
 }
 
@@ -43,8 +41,8 @@
 }
 
 .fotoDavid {
-    height: 53vh;
-    width: 18vw;
+    height: auto;
+    width: 14vw;
     margin-left: 25%;
     border-radius: 20px;
     margin-bottom: 2%;
@@ -60,7 +58,7 @@
     }
 
     .fotoDavid {
-        height: 50%;
+        height: auto;
         width: 80%;
         margin-bottom: 10%;
         margin-left: 10%;
@@ -74,7 +72,7 @@
     }
 
     .fotoDavid {
-        height: 45%;
+        height: auto;
         width: 52%;
         margin-bottom: 10%;
     }
@@ -82,7 +80,7 @@
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
     .fotoDavid {
-        height: 45% !important;
+        height: auto !important;
         width: 72%;
         margin-bottom: 10%;
         margin-left: 15%;
@@ -95,7 +93,7 @@
 
 @media screen and (max-width: 400px) {
     .fotoDavid {
-        height: 33% !important;
+        height: auto !important;
         width: 61%;
         margin-bottom: 5%;
         margin-left: 17%;

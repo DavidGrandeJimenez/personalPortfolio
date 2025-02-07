@@ -29,10 +29,10 @@ const Certificate = ({ date, organization, link, nameCertificate }) => {
 
 const Resume = () => {
     return (
-        <section className="resume">
+        <article className="resume">
             <h2 className="titleResume">Resumen</h2>
             <div className="grid-2">
-                <div className="sec-experience">
+                <section className="sec-education">
                     <article className="resume-item">
                         <div className="resume-subtitle">
                             <img src={educationIcon} alt="education icon" />
@@ -58,10 +58,12 @@ const Resume = () => {
 
                             <Certificate date='Mar 2024 - Jul 2024' organization='Meta & Coursera' link='https://coursera.org/verify/professional-cert/DTO9SEBFEIP6' nameCertificate='Certificado profesional de Desarrollador de front-end de Meta' />
 
+                            <Certificate date='Ago 2024 - Sep 2024' organization='IBM' link='https://www.credly.com/badges/f5161c29-a280-415d-9a58-79ace9aaca14/linked_in_profile' nameCertificate='Python for Data Science' />
+
                         </div>
                     </article>
-                </div>
-                <div className="sec-skills">
+                </section>
+                <section className="sec-skills">
                     <article className="skill-item skill-itemA ">
                         <h3 className='titleApartado' style={{ fontSize: '1.5rem' }}>Habilidades Web</h3>
                         <div className="skill-slider">
@@ -110,6 +112,18 @@ const Resume = () => {
                                     max="100"
                                     step="5"
                                     value="35"
+                                    readOnly
+                                />
+                            </div>
+                            <div className="slider">
+                                <p>PHP</p>
+                                <input
+                                    className="slide"
+                                    type="range"
+                                    min="0"
+                                    max="100"
+                                    step="5"
+                                    value="50"
                                     readOnly
                                 />
                             </div>
@@ -168,8 +182,8 @@ const Resume = () => {
                             </div>
                         </div>
                     </article>
-                </div>
-                <div className="socialSkills">
+                </section>
+                <section className="socialSkills">
                     <article className="socialItem">
                         <h3 className='titleApartado'>Rasgos sociales</h3>
                         <div className="socialTag">
@@ -201,9 +215,9 @@ const Resume = () => {
                             <li style={{ marginBottom: '8vh' }}><img src={germany} alt='spain flag' className="bandera"></img><strong>Alemán</strong> - B1</li>
                         </ul>
                     </article>
-                </div>
+                </section>
             </div>
-        </section>
+        </article>
     );
 };
 

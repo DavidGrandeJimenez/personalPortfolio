@@ -58,6 +58,8 @@ const Resume = () => {
 
                             <Certificate date='Mar 2024 - Jul 2024' organization='Meta & Coursera' link='https://coursera.org/verify/professional-cert/DTO9SEBFEIP6' nameCertificate='Meta Front-End Developer Professional Certificate' />
 
+                            <Certificate date='Aug 2024 - Sep 2024' organization='IBM' link='https://www.credly.com/badges/f5161c29-a280-415d-9a58-79ace9aaca14/linked_in_profile' nameCertificate='Python for Data Science' />
+
                         </div>
                     </div>
                 </section>
@@ -113,6 +115,18 @@ const Resume = () => {
                                     readOnly
                                 />
                             </div>
+                            <div className="slider">
+                                <p>PHP</p>
+                                <input
+                                    className="slide"
+                                    type="range"
+                                    min="0"
+                                    max="100"
+                                    step="5"
+                                    value="50"
+                                    readOnly
+                                />
+                            </div>
                         </div>
                     </article>
                     <article className="skill-item skill-itemB">
@@ -162,10 +176,11 @@ const Resume = () => {
                                     min="0"
                                     max="100"
                                     step="5"
-                                    value="40"
+                                    value="60"
                                     readOnly
                                 />
                             </div>
+                           
                         </div>
                     </article>
                 </section>

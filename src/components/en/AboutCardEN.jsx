@@ -3,7 +3,7 @@ import foto from '../../assets/fotoDefinitiva3.png'
 
 const AboutCard = () => {
     return (
-        <section className="aboutBox">
+        <article className="aboutBox">
             <h2 className="titleAboutCard">About Me</h2>
             <div className="textAboutCard">
                 <p className='ParagAboutCard'>
@@ -16,7 +16,7 @@ const AboutCard = () => {
 
                 <img src={foto} alt='foto David' className='fotoDavid'></img>
             </div>
-        </section>
+        </article>
     );
 };
 

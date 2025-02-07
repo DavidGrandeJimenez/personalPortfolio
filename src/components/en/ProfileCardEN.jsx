@@ -15,7 +15,7 @@ import './ProfileCard.css'
 
 const ProfileCard = () => {
     return (
-        <section id="profile-card" className="profileCardContainer">
+        <article id="profile-card" className="profileCardContainer">
             <article className="profile-card">
                 <div className="profile-img">
                     <img src={perfil} alt="David Grande" />
@@ -60,7 +60,7 @@ const ProfileCard = () => {
                     </a>
                 </div>
             </article>
-        </section>
+        </article>
     );
 };
 
