@@ -9,6 +9,7 @@ import spain from '../../assets/spain.png'
 import germany from '../../assets/germany.png'
 
 import './Resume.css'
+import { createElement } from "react";
 
 const Certificate = ({ date, organization, link, nameCertificate }) => {
     return (
@@ -43,15 +44,13 @@ const Resume = () => {
                             <Certificate date='Sep 2023 - On Going' organization='Linkia FP' link='https://linkiafp.es/fp-grado-superior-desarrollo-de-aplicaciones-web-a-distancia/' nameCertificate='Grado Superior in Web Application Development' />
                         </div>
                     </div>
-                    <div className="resume-item certifications">
+                    <div className="resume-item">
                         <div className="resume-subtitle">
                             <img src={certificatesIcon} alt="certification icon" />
                             <h3 className='titleApartado'>Certifications</h3>
                         </div>
                         <div className="content">
                             <Certificate date='Nov 2023' organization='Google' link='https://analytics.google.com/analytics/web' nameCertificate='Certification Google Analytics 4' />
-
-                            <Certificate date='Dec 2023' organization='EOI & Google' link='https://skillshop.exceedlms.com/student/collection/786255-cloud-computing' nameCertificate='Basic Certification Cloud Computing' />
 
                             <Certificate date='Oct 2023 - Jan 2024' organization='freeCodeCamp' link='https://www.freecodecamp.org/certification/davidgrandewebs/responsive-web-design' nameCertificate='Responsive Web Design with HTML/CSS' />
 
