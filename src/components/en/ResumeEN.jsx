@@ -29,11 +29,11 @@ const Certificate = ({ date, organization, link, nameCertificate }) => {
 
 const Resume = () => {
     return (
-        <section className="resume">
+        <article className="resume">
             <h2 className="titleResume">Resume</h2>
             <div className="grid-2">
-                <div className="sec-experience">
-                    <article className="resume-item">
+                <section className="sec-education">
+                    <div className="resume-item">
                         <div className="resume-subtitle">
                             <img src={educationIcon} alt="education icon" />
                             <h3 className='titleApartado'>Education</h3>
@@ -42,8 +42,8 @@ const Resume = () => {
 
                             <Certificate date='Sep 2023 - On Going' organization='Linkia FP' link='https://linkiafp.es/fp-grado-superior-desarrollo-de-aplicaciones-web-a-distancia/' nameCertificate='Grado Superior in Web Application Development' />
                         </div>
-                    </article>
-                    <article className="resume-item certifications">
+                    </div>
+                    <div className="resume-item certifications">
                         <div className="resume-subtitle">
                             <img src={certificatesIcon} alt="certification icon" />
                             <h3 className='titleApartado'>Certifications</h3>
@@ -60,9 +60,9 @@ const Resume = () => {
                             <Certificate date='Mar 2024 - Jul 2024' organization='Meta & Coursera' link='https://coursera.org/verify/professional-cert/DTO9SEBFEIP6' nameCertificate='Meta Front-End Developer Professional Certificate' />
 
                         </div>
-                    </article>
-                </div>
-                <div className="sec-skills">
+                    </div>
+                </section>
+                <section className="sec-skills">
                     <article className="skill-itemA skill-item">
                         <h3 className='titleApartado'>Web Coding Skills</h3>
                         <div className="skill-slider">
@@ -169,8 +169,8 @@ const Resume = () => {
                             </div>
                         </div>
                     </article>
-                </div>
-                <div className="socialSkills">
+                </section>
+                <section className="socialSkills">
                     <article className="socialItem">
                         <h3 className='titleApartado'>Social Skills</h3>
                         <div className="socialTag">
@@ -202,9 +202,9 @@ const Resume = () => {
                             <li style={{ marginBottom: '8vh' }}><img src={germany} alt='spain flag' className="bandera"></img><strong>German</strong> - B1</li>
                         </ul>
                     </article>
-                </div>
+                </section>
             </div>
-        </section>
+        </article>
     );
 };
 
