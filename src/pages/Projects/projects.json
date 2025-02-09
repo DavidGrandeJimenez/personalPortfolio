@@ -1,0 +1,50 @@
+[
+    {
+        "titulo": "Curiosity Maps",
+        "descripcion": "This project shows several interactive maps of Europe, covering a range of themes from fun facts and curiosities to scientific and statistical information. By using pure JavaScript and modifying SVGs, it creates a unique and engaging user experience. The maps can showcase demographic, economic, and social data, the locations of countries, as well as historical facts from several regions of Europe.",
+        "tecnologias": "JavaScript Vanilla, HTML, CSS, APIs Eurostat, SVG", 
+        "responsive": "In process",
+        "idioma": "Spanish",    
+        "enlace": "https://curiositymaps.pages.dev/"
+    },
+    {
+        "titulo": "Curiosity Maps",
+        "descripcion": "Consiste en varios mapas interactivos de Europa de diferentes temáticas, desde curiosidades y datos divertidos hasta información estadística seria y verificable. Utilizando puro JavaScript y modificando SVGs, se consigue elaborar una experiencia de usuario diferente y entretenida. Los temas que se pueden tratar en estos mapas incluyen información demográfica, económica o social, la ubicación de países y ciudades  y anécdotas históricas de las diferentes regiones de Europa.",
+        "tecnologias": "JavaScript Vanilla, HTML, CSS, APIs de Eurostat, SVG", 
+        "responsive": "En proceso",
+        "idioma": "Español",
+        "enlace": "https://curiositymaps.pages.dev/"
+    },
+    {
+        "titulo": "Curiosity Maps",
+        "descripcion": "Dies sind interaktive Karten von Europa zu verschiedenen Themen, von lustigen Fakten und Kuriositäten bis hin zu wissenschaftlichen und statistischen Informationen. Mit JavaScript und SVGs entsteht ein einzigartiges und lustiges Benutzererlebnis. Die Karten zeigen demografische, wirtschaftliche und soziale Daten, die Lage von Ländern und Städten sowie historische Fakten aus verschiedenen Regionen Europas.",
+        "tecnologias": "JavaScript Vanilla, HTML, CSS, APIs Eurostat, SVG", 
+        "responsive": "in Arbeit",
+        "idioma": "Spanisch",
+        "enlace": "https://curiositymaps.pages.dev/"
+    },
+    {
+        "titulo": "Myth Cards Game",
+        "descripcion": "A funny remake using web technologies of the card game 'Dioses' by the band Destripando la Historia. The game involves revealing cards based on Egyptian, Greek, and Norse mythology until all are revealed, and the program automatically counts all points according to the specific conditions of each card. Disclaimer: All reserved rights belong to Destripando la Historia Official.",
+        "tecnologias": "React, CSS, MUI (Material UI)", 
+        "responsive": "Yes!",
+        "idioma": "Spanish",
+        "enlace": "https://myth-cards-game.pages.dev/"
+    },
+    {
+        "titulo": "Myth Cards Game",
+        "descripcion": "Una divertida recreación con tecnologías web del juego de cartas 'Dioses' de la banda Destripando la Historia. El juego consiste en ir desvelando las cartas basadas en mitología egipcia, griega y nórdica hasta que todas son desveladas y, automáticamente, el programa realiza el recuento de puntos según las condiciones específicas de cada carta. Disclaimer: No existe ningún ánimo de lucro y todos los derechos pertenecen a Destripando la Historia Oficial.",
+        "tecnologias": "React, CSS, MUI (Material UI)", 
+        "responsive": "Sí!",
+        "idioma": "Español",
+        "enlace": "https://myth-cards-game.pages.dev/"
+    },
+    {
+        "titulo": "Myth Cards Game",
+        "descripcion": "Eine lustige Remake des Kartenspiels 'Dioses' der Band Destripando la Historia mit Webtechnologien. Das Spiel besteht darin, Karten von ägyptischer, griechischer und nordischer Mythologie aufzudecken, bis alle aufgedeckt sind, und das Programm zählt automatischweise alle Punkte gemäß den spezifischen Konditionen jeder Karte. Disclaimer: Alle Rechte liegen bei Destripando la Historia Official.",
+        "tecnologias": "React, CSS, MUI (Material UI)", 
+        "responsive": "Ja!",
+        "idioma": "Spanisch",
+        "enlace": "https://myth-cards-game.pages.dev/"
+    }
+]
