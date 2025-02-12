@@ -23,7 +23,7 @@ const ProfileCard = () => {
                 <h1 className="display-name">David Grande Jiménez</h1>
                 <h2 className="career-title">Web Developer</h2>
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/david-grande-jim%C3%A9nez-9213b2230/" target="_blank">
+                    <a href="https://www.linkedin.com/in/david-grande-jimenez" target="_blank">
                         <img src={linkedin} alt="LinkedIn icon" className="imageProfileCard" />
                     </a>
                     <a href="https://github.com/DavidGrandeJimenez" target="_blank">
